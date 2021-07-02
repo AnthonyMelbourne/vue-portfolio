@@ -141,7 +141,7 @@
           </div>
           <div class="modal-body">
             <img
-              src="./resources/images/music/promo/babirusa-promo.jpg"
+              src="./assets/images/music/promo/babirusa-promo.jpg"
               alt="Babirusa Promo Photo"
               class="feature-one-promo"
             />
@@ -189,8 +189,8 @@
             that is still incredibly relevant in this day and age, a concept
             that has transcended generations and all form of media, through
             books (Dune, The Humanoids, Do Androids Dream Of Electric Sheep?
-            etc.), film (The Matrix & Terminator franchises, Blade Runner etc.),
-            television (Black Mirror etc.) and music (Fear Factory etc.)
+            etc.), film (The Matrix and Terminator franchises, Blade Runner
+            etc.), television (Black Mirror etc.) and music (Fear Factory etc.)
             <br /><br /><iframe
               width="560"
               height="315"
@@ -212,7 +212,7 @@
             individual style yet, playing to their strengths and layering for
             full effect. But while the vocalists get to show off, drummer Rangi
             Barnes is in the back, effortlessly keeping the pace and groove
-            while guitarists Tate Senhenn & Dean White seem to do laps of the
+            while guitarists Tate Senhenn and Dean White seem to do laps of the
             fret-board culminating in a huge breakdown.
             <br /><br />
             Track three, ‘HUMANOID’, continues the narrative with the assistance
@@ -307,14 +307,14 @@
               <i class="fas fa-times"></i>
             </button>
             <div>
-              <div class="modal-top-header">Bill & Ted - Face the Music</div>
+              <div class="modal-top-header">Bill and Ted - Face the Music</div>
               <div class="modal-bottom-header">(2020)</div>
             </div>
           </div>
           <div class="modal-body">
             <img
               src="https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
-              alt="Bill & Ted - Face the Music poster"
+              alt="Bill and Ted - Face the Music poster"
               class="feature-two-img"
             />
             <span
@@ -325,7 +325,7 @@
             <br /><br />
             Bizarre encounters … Keanu Reeves and Alex Winter in their third
             film journey. Not excellent maybe, but by no means bogus either,
-            this cheerful Bill & Ted threequel brings the story of our two
+            this cheerful Bill and Ted threequel brings the story of our two
             laidback heroes up to the melancholy autumn of their middle age.
             <br /><br />
             <iframe
@@ -346,18 +346,18 @@
             written by Chris Matheson and Ed Solomon, and the director is Dean
             Parisot, renowned for the sci-fi comedy classic Galaxy Quest.
             <br /><br />
-            Bill & Ted was always the non-stoner stoner franchise, a comedy high
-            only on its own absurdity and sweetly serious idealism: as ever, it
-            reminds me (in the best possible way) of a kids’ TV show by someone
-            like Bob “Rentaghost” Block – something to put alongside Doctor Who
-            and Wayne’s World. George Carlin, who played the boys’ cosmic
-            time-travel guide Rufus in the first two films, died in 2008, and
-            makes a virtual-reality appearance here courtesy of archive
+            Bill and Ted was always the non-stoner stoner franchise, a comedy
+            high only on its own absurdity and sweetly serious idealism: as
+            ever, it reminds me (in the best possible way) of a kids’ TV show by
+            someone like Bob “Rentaghost” Block – something to put alongside
+            Doctor Who and Wayne’s World. George Carlin, who played the boys’
+            cosmic time-travel guide Rufus in the first two films, died in 2008,
+            and makes a virtual-reality appearance here courtesy of archive
             footage; Kristen Schaal plays his daughter, Kelly.
             <br /><br />
             <img
-              src="./resources/images/film/promo/bill-and-ted-promo1.jpg"
-              alt="Bill & Ted promo photo"
+              src="./assets/images/film/promo/bill-and-ted-promo1.jpg"
+              alt="Bill and Ted promo photo"
               class="feature-two-promo"
             />
             Nowadays, Bill and Ted are getting on in years, and their band, Wyld
@@ -399,7 +399,7 @@
             he famously replied: “To tell you the God’s honest truth I haven’t
             heard much of the fella’s stuff. But I dig a bit of Bach now and
             again.” But of course the most powerful musician of all is the Grim
-            Reaper from Bergman’s Seventh Seal, first encountered in Bill &
+            Reaper from Bergman’s Seventh Seal, first encountered in Bill and
             Ted’s Bogus Journey — funny stuff from William Sadler.
             <br /><br />
             It’s amiably amusing, and Bill and Ted’s Peter Pannish inability to
@@ -476,7 +476,7 @@
             any case, we’ll start with …
             <br /><br />
             <img
-              src="./resources/images/games/promo/Call-of-duty-cold-war-promo4.jpg"
+              src="./assets/images/games/promo/Call-of-duty-cold-war-promo4.jpg"
               alt="CALL OF DUTY - Black Ops : Cold War promo photo"
               class="feature-one-promo"
             />
@@ -509,7 +509,7 @@
               >here</a
             >.
             <img
-              src="./resources/images/games/promo/Call-of-duty-cold-war-promo1.jpg"
+              src="./assets/images/games/promo/Call-of-duty-cold-war-promo1.jpg"
               alt="CALL OF DUTY - Black Ops : Cold War promo photo"
               class="feature-two-promo"
             />
@@ -571,7 +571,7 @@
               new campaigns and multiplayer options a la Destiny 2.
               <br /><br />
               <img
-                src="./resources/images/games/promo/Call-of-duty-cold-war-promo3.jpg"
+                src="./assets/images/games/promo/Call-of-duty-cold-war-promo3.jpg"
                 alt="CALL OF DUTY - Black Ops : Cold War promo photo"
                 class="feature-two-promo"
               />
@@ -773,7 +773,7 @@
           </div>
           <div class="modal-body">
             <img
-              src="./resources/images/music/promo/defeated-sanity-promo.jpg"
+              src="./assets/images/music/promo/defeated-sanity-promo.jpg"
               alt="Defeated Sanity Promo Photo"
               class="feature-one-promo"
             />
@@ -781,7 +781,7 @@
             Death Metal world by the throat and drag it’s rotting corpse through
             the cobble stone lined streets of Berlin with the release of their
             sixth record, <span>‘THE SANGUINARY IMPETUS’</span>. Diverging ever
-            so slightly from the Groove & Slam driven material of 2016’s
+            so slightly from the Groove and Slam driven material of 2016’s
             <span>‘Disposal of the Dead // Dharmata’</span>, in favour of the
             decidedly more Technical and Progressive writing style of their 2013
             opus <span>‘Passages into Deformity’</span>. <br /><br />
@@ -803,7 +803,7 @@
             Of their 20+ years in the underground scene,
             Drummer/Multi-Instrumentalist
             <span>Lille Gruber</span> (who also serves as Guitarist on the
-            record), joined by Bassist <span>Jacob Schmidt</span> & Vocalist
+            record), joined by Bassist <span>Jacob Schmidt</span> and Vocalist
             <span>Josh Welshman</span> have shown considerable and obvious signs
             of evolution and maturity in their sound; never making the same
             record twice, they have proven to be true masters of their craft,
@@ -825,9 +825,9 @@
             ‘IMPOSED CORPOREAL INHABITATION’ doesn’t fuck around either,
             bludgeoning would be the most appropriate word to use when
             describing this track (let alone the entire album!), the drumming is
-            particularly impressive here, fills & blasts intertwine with
-            sickening Bass & Guitar riffs and arpeggios in a perfect marriage of
-            Brutality and Technicality. Taking a more straight up Death Metal
+            particularly impressive here, fills and blasts intertwine with
+            sickening Bass and Guitar riffs and arpeggios in a perfect marriage
+            of Brutality and Technicality. Taking a more straight up Death Metal
             approach to the riff structures that bring to mind
             <span>‘Covenant’</span> era <span>‘Morbid Angel’</span> meets
             <span>‘Effigy of the Forgotten’</span> era
@@ -883,7 +883,7 @@
             into account of everything when constructing a record as Technical
             as this.
             <br /><br />
-            ‘DRIVELLING PUTREFACTION’ & ‘DISLIMBING THE OSTRACIZED’ are the
+            ‘DRIVELLING PUTREFACTION’ and ‘DISLIMBING THE OSTRACIZED’ are the
             longest offerings on the record and together almost form one very
             long epic song split into two, the former is much slower in pace
             compared with the rest of the material found on this record, and for
@@ -924,7 +924,7 @@
           </div>
           <div class="modal-body">
             <img
-              src="./resources/images/music/promo/make-them-suffer-promo.jpg"
+              src="./assets/images/music/promo/make-them-suffer-promo.jpg"
               alt="Make Them Suffer Promo Photo"
               class="feature-one-promo"
             />
@@ -939,7 +939,7 @@
             2017’s critically acclaimed <span>‘Worlds Apart’</span>.
             <br /><br />
             <img
-              src="https://i0.wp.com/wallofsoundau.com/wp-content/uploads/2020/06/MTS-funeral.jpg?fit=1024%2C1024&ssl=1"
+              src="https://i0.wp.com/wallofsoundau.com/wp-content/uploads/2020/06/MTS-funeral.jpg?fit=1024%2C1024andssl=1"
               class="feature-one-img"
               alt="Make Them Suffer - How To Survive A Funeral cover"
             />
@@ -956,8 +956,8 @@
             Funeral', Make Them Suffer enlisted none other than
             <span>Drew Fulk a.k.a. WZRDBLD</span> - who has handled production
             duties for Metalcore heavyweights <span>Motionless In White</span>,
-            <span>Beartooth</span> & <span>Bullet For My Valentine</span> as
-            well as hip-hop luminaries <span>Yelawolf</span> &
+            <span>Beartooth</span> and <span>Bullet For My Valentine</span> as
+            well as hip-hop luminaries <span>Yelawolf</span> and
             <span>Lil’ Wayne</span> to help them capture what could truly be
             their 'Master Of Puppets' or 'White Album' if you will. The growth
             in the few years of heavy touring since their last release is
@@ -1028,8 +1028,8 @@
             ‘FAKE YOUR OWN DEATH’ is easily one of if not THE heaviest track on
             the album, showing us that MTS is still very capable of writing an
             absolutely ruthless Deathcore banger - full of breakdowns and in
-            your face pissed off aggression & attitude. The lyrics are straight
-            forward and angry as fuck, I get an old school
+            your face pissed off aggression and attitude. The lyrics are
+            straight forward and angry as fuck, I get an old school
             <span>Slipknot</span> vibe at times in this song which I’m all
             about. If this song doesn’t get the mosh lords moving then I don’t
             know what will. When this song comes on, I’ll see you in the pit.
@@ -1047,7 +1047,7 @@
             Deftones-esque masterpiece, with flourishes of piano accentuating
             the chord driven riffs and allows Harmanis to shine bright with an
             impassioned vocal performance beautifully harmonized with Nile the
-            lyrics are melancholic & self-reflective; dealing with self-doubt
+            lyrics are melancholic and self-reflective; dealing with self-doubt
             and depression (again, my take away from it), this song seems quite
             far removed from the rest of the album sonically, but is in fact a
             culmination of the quieter moving parts of their arrangements
@@ -1105,7 +1105,7 @@
           </div>
           <div class="modal-body">
             <img
-              src="./resources/images/music/promo/bleed-from-within-promo.jpg"
+              src="./assets/images/music/promo/bleed-from-within-promo.jpg"
               alt="Bleed From Within Promo Photo"
               class="feature-one-promo"
             />
@@ -1127,12 +1127,12 @@
             other hand is anthemic and catchy as hell, taking me back to the mid
             2000's Metalcore with an impassioned vocal delivery and uplifting
             subject matter really make this song a stand out. <br /><br /><img
-              src="https://i1.wp.com/www.rocksins.com/wp-content/uploads/2020/05/Bleed-From-Within-Fracture-Album-Cover.jpg?fit=800%2C800&ssl=1"
+              src="https://i1.wp.com/www.rocksins.com/wp-content/uploads/2020/05/Bleed-From-Within-Fracture-Album-Cover.jpg?fit=800%2C800andssl=1"
               class="feature-one-img"
               alt="feature-one-img"
             />
             The Melodic Death and Thrash influences are worn proudly on their
-            sleeves with tracks like 'PATHFINDER' & 'FALL AWAY' - Frenetic
+            sleeves with tracks like 'PATHFINDER' and 'FALL AWAY' - Frenetic
             fretboard acrobatics, solid grooves and Scott Kennedy's vocals
             shifting from the mid-low growls to an almost Southern metal vibe
             with a healthy dose of <span>Slayer</span>-isms to keep you moving
@@ -1153,7 +1153,7 @@
             <br /><br />
             The third single, 'NIGHT CROSSING', opens up with a melodic lead
             with a meaty bass tone that builds into a heavy chorus (I get hints
-            of early <span>Killswitch Engage</span> &
+            of early <span>Killswitch Engage</span> and
             <span>As I Lay Dying</span> here) before sidestepping into a calming
             acoustic guitar section with a guest spot from
             <span>Trivium</span> frontman <span>Matt Heafy</span>, who rips a
@@ -1199,7 +1199,8 @@
             lyrics and plenty of mosh worthy moments to keep the crowd happy.
             <br /><br />
             For fans of: <span>Killswitch Engage</span>, <span>Soilwork</span>,
-            <span>The Haunted</span> & <span>Parkway Drive</span>. <br /><br />
+            <span>The Haunted</span> and <span>Parkway Drive</span>.
+            <br /><br />
             FRACTURE is out now via Century Media Records, pick it up
             <a href="https://www.centurymedia.com/artist.aspx?IdArtist=595"
               >HERE</a
@@ -1273,7 +1274,7 @@
             instantly mutated all cold-blooded creatures — cockroaches, worms,
             crabs, etc. — into massive, human-hungry monsters. <br /><br />
             <img
-              src="./resources/images/film/promo/love-and-monsters-promo1.jpg"
+              src="./assets/images/film/promo/love-and-monsters-promo1.jpg"
               alt="Love and Monsters promo"
               class="feature-one-promo"
             />
@@ -1392,7 +1393,7 @@
             exploding, stabbing – to descend from a hidden and prepared upper
             class. <br /><br />
             <img
-              src="./resources/images/film/promo/the-hunt-promo1.jpg"
+              src="./assets/images/film/promo/the-hunt-promo1.jpg"
               alt="The Hunt promo"
               class="feature-one-promo"
             />
@@ -1527,7 +1528,7 @@
             seems.
             <br /><br />
             <img
-              src="./resources/images/film/promo/the-new-mutants-promo1.jpeg"
+              src="./assets/images/film/promo/the-new-mutants-promo1.jpeg"
               alt="The New Mutants promo"
               class="feature-one-promo"
             />
@@ -1647,7 +1648,7 @@
             experience playing rather than nit-picking the historical accuracy
             of a game that makes no pretense at being anything other than a
             total fiction.<br /><img
-              src="./resources/images/games/promo/cod-modern-warefare-promo1.jpg"
+              src="./assets/images/games/promo/cod-modern-warefare-promo1.jpg"
               alt="Call of Duty - Modern Warfare Review Promo Photo"
               class="feature-two-promo"
             />
@@ -1702,7 +1703,7 @@
             as cut and dry as it seemed at first, but I won’t spoil any of
             that.<br />
             <img
-              src="./resources/images/games/promo/cod-modern-warefare-promo2.jpg"
+              src="./assets/images/games/promo/cod-modern-warefare-promo2.jpg"
               alt="Call of Duty - Modern Warfare Review Promo Photo"
               class="feature-two-promo"
             />
@@ -2005,7 +2006,7 @@
             exceeds expectations.
             <br /><br />
             <img
-              src="./resources/images/games/promo/red-dead-redemption-2-promo1.jpg"
+              src="./assets/images/games/promo/red-dead-redemption-2-promo1.jpg"
               alt="Red Dead Redemption 2 Promo Photo"
               class="feature-two-promo"
             />
@@ -2099,7 +2100,7 @@
             money. You’re free to help, rob, loot, kill, or ignore these people
             as you see fit.
             <br /><br /><img
-              src="./resources/images/games/promo/red-dead-redemption-2-promo2.jpg"
+              src="./assets/images/games/promo/red-dead-redemption-2-promo2.jpg"
               alt="Red Dead Redemption 2 Promo Photo"
               class="feature-one-promo"
             />
@@ -2200,7 +2201,7 @@
             could place you right in the middle of the action with some of the
             most trigger-happy opponents.
             <br /><br /><img
-              src="./resources/images/games/promo/pubg-promo1.jpg"
+              src="./assets/images/games/promo/pubg-promo1.jpg"
               alt="PlayerUnknown's Battlegrounds Promo Photo"
               class="feature-one-promo"
             />
@@ -2236,7 +2237,7 @@
             it. But even if you die early, jumping into a new game is always
             quick and easy.
             <br /><br /><img
-              src="./resources/images/games/promo/pubg-promo3.png"
+              src="./assets/images/games/promo/pubg-promo3.png"
               alt="PlayerUnknown's Battlegrounds Promo Photo"
               class="feature-one-promo"
             />
