@@ -2,7 +2,7 @@ body {
     font-family: "Teko", sans-serif;
     overflow-x: hidden;
   }
-  
+
   body {
     background-color: #000000;
     width: 100%;
@@ -11,20 +11,20 @@ body {
     font-size: 12px;
     margin: 0 auto;
   }
-  
+
   i {
     color: #bfa317;
   }
-  
+
   a {
     color: black;
     text-decoration: none;
   }
-  
+
   a:hover {
     color: #bfa317;
   }
-  
+
   .header {
     display: flex;
     justify-content: center;
@@ -35,17 +35,17 @@ body {
     background: rgb(255, 255, 255);
     box-shadow: 2px 2px white, -2px -2px white;
   }
-  
+
   .header a {
     text-decoration: none;
     color: black;
     cursor: pointer;
   }
-  
+
   .header a:hover {
     color: #bfa317;
   }
-  
+
   .header h1 {
     padding-top: 5px;
     font-family: "UnifrakturMaguntia", cursive;
@@ -62,7 +62,7 @@ body {
     border: #bfa317 2px solid;
     box-shadow: 2px 2px white, -2px -2px white;
   }
-  
+
   .middle-border {
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ body {
     border: #9e8820 5px solid;
     box-shadow: 2px 2px white, -2px -2px white;
   }
-  
+
   .inner-border {
     background: rgba(255, 255, 255, 0.5);
     display: flex;
@@ -80,7 +80,7 @@ body {
     border: #bfa317 3px solid;
     box-shadow: 2px 2px white, -2px -2px white;
   }
-  
+
   /* ------------------------------------------------ */
   /* NAV BAR  */
   .nav-parent {
@@ -93,7 +93,7 @@ body {
     top: -1px;
     width: 110%;
   }
-  
+
   /* ------------------------------------------------ */
   /* DROPDOWN MENU vvvv */
   .dropdown-menu {
@@ -108,40 +108,40 @@ body {
     top: 45px;
     z-index: 20;
   }
-  
+
   .dropdown-menu i {
     color: black;
   }
-  
+
    .dropdown-menu ul {
     display: block;
     list-style-type: disc;
     margin: 0em;
     padding: 0em;
   }
-  
+
   .dropdown-menu li {
     margin-top: 15px;
   }
-  
+
   .dropdown-menu#menu-1 {
     left: 115px;
     width: 95px;
     height: 155px;
   }
-  
+
   .dropdown-menu#music-1 {
     left: 111px;
     width: 95px;
     height: 155px;
   }
-  
+
   .dropdown-menu#film-2 {
     left: 214px;
     width: 95px;
     height: 155px;
   }
-  
+
   .dropdown-menu#games-3 {
     left: 317px;
     width: 95px;
@@ -151,14 +151,14 @@ body {
     margin-top: 0;
     margin-bottom: 5;
   }
-  
+
   .menu-item-list a {
     text-decoration: none;
     list-style: none;
     font-size: 1em;
     color: black;
   }
-  
+
   .menu-item-list {
     display: block;
     list-style-type: disc;
@@ -168,12 +168,12 @@ body {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
   }
-  
+
   .menu-item-list li {
     list-style: none;
     text-align: center;
   }
-  
+
   .menu-item-list a:hover {
     color: #bfa317;
   }
@@ -182,36 +182,36 @@ body {
   .footer-outer-border {
     margin-top: 20px;
   }
-  
+
   .footer-parent {
     width: 100%;
     margin: 10px 0 10px 0;
   }
-  
+
   .footer-contact-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  
+
   .footer-contact-icons i {
     color: #bfa317;
   }
-  
+
   .footer-contact-icons i:hover {
     color: black;
     cursor: pointer;
   }
-  
+
   /* NEWS */
-  
+
   .news-content {
     margin: 5px;
     padding: 5px;
     border: #bfa317 1px solid;
     font-size: 3rem;
   }
-  
+
   /* ------------------------------------------------ */
   /* MOBILE LAYOUT vvvv */
   @media (max-width: 599px) {
@@ -224,24 +224,24 @@ body {
       width: auto;
       border: #bfa317 2px solid;
     }
-  
+
     .dropdown-menu {
       display: none;
     }
-  
+
     .show-menu {
       opacity: 1;
       transform: translateX(0%);
     }
-  
+
     .mobile-menu-close {
       margin-left: 75px;
     }
-  
+
     .mobile-menu-close i {
       color: #818181;
     }
-  
+
     .mobile-menu-close i:hover {
       cursor: pointer;
       color: #bfa317;
@@ -266,7 +266,7 @@ body {
       padding-top: 60px;
       opacity: 1;
     }
-  
+
     .mobile-menu a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
@@ -277,11 +277,11 @@ body {
       transition: 0.3s;
       background: black;
     }
-  
+
     .mobile-menu a:hover {
       color: #f1f1f1;
     }
-  
+
     .mobile-menu .closebtn {
       position: absolute;
       top: 0;
@@ -289,12 +289,12 @@ body {
       font-size: 36px;
       margin-left: 50px;
     }
-  
+
     #main {
       transition: margin-left 0.5s;
       padding: 16px;
     }
-  
+
     .mobile-menu a:hover {
       color: #bfa317;
       cursor: pointer;
@@ -303,7 +303,7 @@ body {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .desktop-navbar-buttons {
       display: none;
     }
@@ -321,7 +321,7 @@ body {
       text-align: center;
       margin: 10px;
     }
-  
+
     .right-content-outer-border {
       display: flex;
       flex-direction: column;
@@ -332,14 +332,14 @@ body {
       background: rgba(255, 255, 255, 0.1);
       border: #bfa317 4px solid;
     }
-  
+
     .right-content h1 {
       font-family: "UnifrakturCook", cursive;
       font-size: 2.3rem;
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  
+
     .review-link button {
       font-family: "Teko", sans-serif;
       width: 250px;
@@ -360,7 +360,7 @@ body {
       background: rgba(255, 255, 255, 0.8);
       border: #bfa317 1px solid;
     }
-  
+
     .mobile-menu-tigger {
       padding: 5px;
     }
@@ -368,7 +368,7 @@ body {
       color: black;
       cursor: pointer;
     }
-  
+
     .content-parent {
       width: 100%;
       display: flex;
@@ -378,13 +378,13 @@ body {
       background: rgba(255, 255, 255, 0.3);
       box-shadow: 2px 2px white, -2px -2px white;
     }
-  
+
     .left-content {
       display: grid;
       grid-template-columns: 1fr;
       width: 100%;
     }
-  
+
     .left-content h1 {
       text-align: center;
       font-family: "UnifrakturCook", cursive;
@@ -392,7 +392,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  
+
     .left-content-inner-border {
       display: flex;
       flex-direction: column;
@@ -400,22 +400,22 @@ body {
       padding: 5px;
       border: #bfa317 4px solid;
     }
-  
+
     .featured-album-thumbnail {
       width: 320px;
       height: 320px;
     }
-  
+
     .featured-movie-thumbnail {
       width: 320px;
       height: 420px;
     }
-  
+
     .featured-game-thumbnail {
       width: 320px;
       height: 420px;
     }
-  
+
     .featured-excerpt {
       display: none;
       height: auto;
@@ -424,7 +424,7 @@ body {
       text-align: center;
       font-size: 1.6rem;
     }
-  
+
     /* ------------------------------------------------ */
     /* MUSIC INDEX PAGE MOBILE*/
     .music-nav {
@@ -435,35 +435,35 @@ body {
       font-size: 2rem;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .music-nav li {
       list-style: none;
       padding-right: 15px;
       padding-left: 15px;
     }
-  
+
     .music-nav a {
       color: black;
       text-decoration: none;
     }
-  
+
     .music-nav a:hover {
       color: #bfa317;
     }
-  
+
     /* ------------------------------------------------ */
-  
+
     .review-header li {
       text-align: center;
       font-size: 1rem;
       list-style: none;
     }
-  
+
     .review-header span {
       font-size: 3rem;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     /* REVIEW CONTENT MOBILE*/
     .music-review-content {
       background: rgba(255, 255, 255, 0.8);
@@ -473,7 +473,7 @@ body {
       width: 85%;
       border: #bfa317 6px solid;
     }
-  
+
     .content-paragraph {
       font-size: 1.5rem;
       text-align: justify;
@@ -481,7 +481,7 @@ body {
       height: 100%;
       padding-right: 10px;
     }
-  
+
     .music-review-content-inner-border {
       display: flex;
       flex-direction: column;
@@ -491,57 +491,57 @@ body {
       padding-right: 5px;
       padding-left: 5px;
     }
-  
+
     .content-paragraph a {
       text-decoration: none;
       color: black;
       font-weight: bolder;
     }
-  
+
     .content-paragraph a:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .feature-one-img {
       width: 100%;
       margin: 5px;
     }
-  
+
     .feature-two-img {
       width: 100%;
       margin: 5px;
     }
-  
+
     .feature-one-promo {
       width: 100%;
       margin: 5px;
       float: right;
     }
-  
+
     .feature-two-promo {
       width: 100%;
       margin: 5px;
     }
-  
+
     .video-1 {
       margin: 5px;
       width: 100%;
       height: 200px;
     }
-  
+
     .video-2 {
       margin: 5px;
       width: 330px;
       height: 200px;
     }
-  
+
     .video-3 {
       margin: 5px;
       width: 330px;
       height: 200px;
     }
-  
+
     .album-image {
       background-size: cover;
       border: 2px black solid;
@@ -552,7 +552,7 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-  
+
     .film-image {
       background-size: cover;
       border: 2px black solid;
@@ -563,7 +563,7 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-  
+
     .game-image {
       background-size: cover;
       border: 2px black solid;
@@ -574,21 +574,21 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-  
+
     .image-gallery {
       display: grid;
       grid-template-columns: 1fr;
     }
-  
+
     /* MODAL MOBILE */
-  
+
     .modal-open {
       padding: 8px 16px;
       color: white;
       outline: none;
       background-origin: none;
     }
-  
+
     .modal {
       position: fixed;
       top: 0;
@@ -599,7 +599,7 @@ body {
       z-index: 2;
       display: none;
     }
-  
+
     .modal-content {
       border: #bfa317 3px solid;
       background: #fff;
@@ -612,23 +612,23 @@ body {
       border-radius: 4px;
       z-index: 5;
     }
-  
+
     .modal-header {
       padding: 2px 0;
     }
-  
+
     .modal-top-header {
       font-size: 1.6rem;
       text-align: left;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .modal-bottom-header {
       font-size: 1.2rem;
       text-align: left;
       font-family: "Teko", sans-serif;
     }
-  
+
     .modal-header .modal-close {
       float: right;
       font-size: 20px;
@@ -638,7 +638,7 @@ body {
       padding: 5px 8px;
       border-radius: 50%;
     }
-  
+
     .modal-body {
       font-size: 1.6em;
       overflow-y: scroll;
@@ -648,23 +648,23 @@ body {
       overflow-x: hidden;
       text-align: left;
     }
-  
+
     .modal-body span {
       font-weight: bolder;
       font-size: large;
       color: #5e5c5c;
       font-style: italic;
     }
-  
+
     .modal-footer {
       padding: 15px 0;
     }
-  
+
     .icon i {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .icon i:hover {
       color: black;
     }
@@ -681,31 +681,31 @@ body {
       width: auto;
       border: #bfa317 2px solid;
     }
-  
+
     .show {
       display: block;
     }
-  
+
     .mobile-button-open {
       display: none;
     }
-  
+
     .mobile-button-close {
       display: none;
     }
-  
+
     .mobile-menu {
       display: none;
     }
-  
+
     .mobile-menu i {
       display: none;
     }
-  
+
     .fa-bars {
       display: none;
     }
-  
+
     .desktop-navbar-buttons {
       width: 80%;
       font-size: 1.5rem;
@@ -718,7 +718,7 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-  
+
     .button {
       margin-right: 15px;
       color: black;
@@ -726,29 +726,29 @@ body {
       cursor: pointer;
       font-size: 2rem;
     }
-  
+
     .button:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .button a {
       text-decoration: none;
       color: black;
     }
-  
+
     .button a:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .content-parent {
       width: 100%;
       display: block;
       align-items: center;
       background: rgba(255, 255, 255, 0.3);
     }
-  
+
     .right-content-outer-border {
       display: flex;
       flex-direction: column;
@@ -766,7 +766,7 @@ body {
       justify-content: center;
       align-items: center;
       width: 97%;
-  
+
       text-align: center;
       margin: 10px;
     }
@@ -792,20 +792,20 @@ body {
       height: auto;
       text-align: center;
       background: rgba(255, 255, 255, 0.8);
-  
+
       border: #bfa317 4px solid;
     }
     .review-link a:hover {
       cursor: pointer;
     }
-  
+
     .left-content {
       display: flex;
       flex-direction: column;
       width: 97%;
       margin: 10px;
     }
-  
+
     .left-content h1 {
       text-align: center;
       font-family: "UnifrakturCook", cursive;
@@ -813,7 +813,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  
+
     .left-content-inner-border {
       display: flex;
       flex-direction: column;
@@ -821,22 +821,22 @@ body {
       padding: 5px;
       border: #bfa317 4px solid;
     }
-  
+
     .featured-album-thumbnail {
       width: 300px;
       height: 299px;
     }
-  
+
     .featured-movie-thumbnail {
       width: 300px;
       height: 420px;
     }
-  
+
     .featured-game-thumbnail {
       width: 300px;
       height: 420px;
     }
-  
+
     .featured-excerpt {
       height: auto;
       width: 50%;
@@ -844,10 +844,10 @@ body {
       text-align: center;
       font-size: 1.6rem;
     }
-  
+
     /* ------------------------------------------------ */
     /* REVIEW CONTENT TABLET*/
-  
+
     .album-image {
       background-size: cover;
       border: 2px black solid;
@@ -857,7 +857,7 @@ body {
       height: 315px;
       padding: 5px;
     }
-  
+
     .film-image {
       background-size: cover;
       border: 2px black solid;
@@ -867,7 +867,7 @@ body {
       height: 450px;
       padding: 5px;
     }
-  
+
     .game-image {
       background-size: cover;
       border: 2px black solid;
@@ -877,13 +877,13 @@ body {
       height: 400px;
       padding: 5px;
     }
-  
+
     .image-gallery {
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-items: center;
     }
-  
+
     /* ------------------------------------------------ */
     /* MUSIC INDEX PAGE TABLET*/
     .music-nav {
@@ -894,40 +894,40 @@ body {
       font-size: 2rem;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .music-nav li {
       list-style: none;
       padding-right: 15px;
       padding-left: 15px;
     }
-  
+
     .music-nav a {
       color: black;
       text-decoration: none;
     }
-  
+
     .music-nav a:hover {
       color: #bfa317;
     }
-  
+
     /* ------------------------------------------------ */
     /* MUSIC REVIEW CONTENT DESKTOP*/
-  
+
     .review-header li {
       text-align: center;
       font-size: 1rem;
       list-style: none;
     }
-  
+
     .review-header-ul {
       padding-left: 0;
     }
-  
+
     .review-header span {
       font-size: 4rem;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .music-review-content {
       background: rgba(255, 255, 255, 0.8);
       margin: 1% auto;
@@ -936,7 +936,7 @@ body {
       width: 85%;
       border: #bfa317 6px solid;
     }
-  
+
     .content-paragraph {
       font-size: 1.5rem;
       text-align: justify;
@@ -944,7 +944,7 @@ body {
       height: 100%;
       padding-right: 10px;
     }
-  
+
     .music-review-content-inner-border {
       display: flex;
       flex-direction: column;
@@ -954,66 +954,66 @@ body {
       padding-right: 5px;
       padding-left: 5px;
     }
-  
+
     .content-paragraph a {
       text-decoration: none;
       color: black;
       font-weight: bolder;
     }
-  
+
     .content-paragraph a:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .feature-one-img {
       width: 370px;
       float: left;
       margin: 5px;
     }
-  
+
     .feature-two-img {
       width: 370px;
       float: right;
       margin: 5px;
     }
-  
+
     .feature-one-promo {
       width: 400px;
       float: right;
       margin: 5px;
     }
-  
+
     .feature-two-promo {
       width: 450px;
       float: left;
       margin: 5px;
     }
-  
+
     .video-1 {
       float: right;
       margin: 5px;
     }
-  
+
     .video-2 {
       float: left;
       margin: 5px;
     }
-  
+
     .video-3 {
       float: right;
       margin: 5px;
     }
-  
+
     /* MODAL TABLET */
-  
+
     .modal-open {
       padding: 8px 16px;
       color: white;
       outline: none;
       background-origin: none;
     }
-  
+
     .modal {
       position: fixed;
       top: 0;
@@ -1024,7 +1024,7 @@ body {
       z-index: 2;
       display: none;
     }
-  
+
     .modal-content {
       border: #bfa317 3px solid;
       background: #fff;
@@ -1037,7 +1037,7 @@ body {
       border-radius: 4px;
       z-index: 4;
     }
-  
+
     .modal-header {
       padding: 2px 0;
     }
@@ -1046,13 +1046,13 @@ body {
       text-align: left;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .modal-bottom-header {
       font-size: 1.6rem;
       text-align: left;
       font-family: "Teko", sans-serif;
     }
-  
+
     .modal-header .modal-close {
       float: right;
       font-size: 20px;
@@ -1062,7 +1062,7 @@ body {
       padding: 5px 8px;
       border-radius: 50%;
     }
-  
+
     .modal-body {
       font-size: 1.6em;
       overflow-y: scroll;
@@ -1071,23 +1071,23 @@ body {
       height: 80%;
       text-align: left;
     }
-  
+
     .modal-body span {
       font-weight: bolder;
       font-size: large;
       color: #5e5c5c;
       font-style: italic;
     }
-  
+
     .modal-footer {
       padding: 15px 0;
     }
-  
+
     .icon i {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .icon i:hover {
       color: black;
     }
@@ -1104,11 +1104,11 @@ body {
       width: auto;
       border: #bfa317 2px solid;
     }
-  
+
     .show {
       display: block;
     }
-  
+
     .mobile-button-open {
       display: none;
     }
@@ -1124,7 +1124,7 @@ body {
     .fa-bars {
       display: none;
     }
-  
+
     .desktop-navbar-buttons {
       width: 80%;
       font-size: 1.5rem;
@@ -1137,7 +1137,7 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
     }
-  
+
     .button {
       margin-right: 15px;
       color: black;
@@ -1145,12 +1145,12 @@ body {
       cursor: pointer;
       font-size: 2rem;
     }
-  
+
     .button:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .content-parent {
       width: 100%;
       display: flex;
@@ -1158,7 +1158,7 @@ body {
       justify-content: space-evenly;
       align-items: center;
     }
-  
+
     .right-content-outer-border {
       display: flex;
       flex-direction: column;
@@ -1204,7 +1204,7 @@ body {
       background: rgba(255, 255, 255, 0.8);
       border: #bfa317 4px solid;
     }
-  
+
     .left-content {
       display: flex;
       flex-direction: column;
@@ -1228,22 +1228,22 @@ body {
       padding: 5px;
       border: #bfa317 4px solid;
     }
-  
+
     .featured-album-thumbnail {
       width: 300px;
       height: 299px;
     }
-  
+
     .featured-movie-thumbnail {
       width: 300px;
       height: 420px;
     }
-  
+
     .featured-game-thumbnail {
       width: 300px;
       height: 380px;
     }
-  
+
     .featured-excerpt {
       height: auto;
       width: 50%;
@@ -1251,15 +1251,15 @@ body {
       text-align: center;
       font-size: 1.6rem;
     }
-  
+
     /* ------------------------------------------------ */
     /* REVIEW CONTENT DESKTOP */
-  
+
     .image-gallery {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-  
+
     .album-image {
       background-size: cover;
       border: 2px black solid;
@@ -1268,7 +1268,7 @@ body {
       width: 230px;
       height: 247px;
     }
-  
+
     .film-image {
       background-size: cover;
       border: 2px black solid;
@@ -1277,7 +1277,7 @@ body {
       width: 230px;
       height: 366px;
     }
-  
+
     .game-image {
       background-size: cover;
       border: 2px black solid;
@@ -1286,18 +1286,18 @@ body {
       height: 320px;
       width: 230px;
     }
-  
+
     .review-header li {
       text-align: center;
       font-size: 1rem;
       list-style: none;
     }
-  
+
     .review-header span {
       font-size: 4rem;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     /* ------------------------------------------------ */
     /* ------------------------------------------------ */
     /* MUSIC REVIEW CONTENT DESKTOP*/
@@ -1309,7 +1309,7 @@ body {
       width: 85%;
       border: #bfa317 6px solid;
     }
-  
+
     .content-paragraph {
       font-size: 1.5rem;
       text-align: justify;
@@ -1317,7 +1317,7 @@ body {
       height: 100%;
       padding-right: 10px;
     }
-  
+
     .music-review-content-inner-border {
       display: flex;
       flex-direction: column;
@@ -1327,66 +1327,66 @@ body {
       padding-right: 5px;
       padding-left: 5px;
     }
-  
+
     .content-paragraph a {
       text-decoration: none;
       color: black;
       font-weight: bolder;
     }
-  
+
     .content-paragraph a:hover {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .feature-one-img {
       width: 500px;
       float: left;
       margin: 5px;
     }
-  
+
     .feature-two-img {
       width: 500px;
       float: right;
       margin: 5px;
     }
-  
+
     .feature-one-promo {
       width: 500px;
       float: right;
       margin: 5px;
     }
-  
+
     .feature-two-promo {
       width: 550px;
       float: left;
       margin: 5px;
     }
-  
+
     .video-1 {
       float: right;
       margin: 5px;
     }
-  
+
     .video-2 {
       float: left;
       margin: 5px;
     }
-  
+
     .video-3 {
       float: right;
       margin: 5px;
     }
-  
+
     /* MODAL DESKTOP */
-  
+
     .modal-open {
       padding: 8px 16px;
       color: white;
       outline: none;
       background-origin: none;
     }
-  
+
     .modal {
       position: fixed;
       top: 0;
@@ -1397,7 +1397,7 @@ body {
       z-index: 2;
       display: none;
     }
-  
+
     .modal-content {
       border: #bfa317 3px solid;
       background: #fff;
@@ -1410,23 +1410,23 @@ body {
       border-radius: 4px;
       z-index: 4;
     }
-  
+
     .modal-header {
       padding: 2px 0;
     }
-  
+
     .modal-top-header {
       font-size: 3rem;
       text-align: left;
       font-family: "UnifrakturCook", cursive;
     }
-  
+
     .modal-bottom-header {
       font-size: 2rem;
       text-align: left;
       font-family: "Teko", sans-serif;
     }
-  
+
     .modal-header.modal-close {
       float: right;
       font-size: 20px;
@@ -1436,7 +1436,7 @@ body {
       padding: 2px 2px;
       border-radius: 50%;
     }
-  
+
     .modal-body {
       font-size: 1.6em;
       overflow-y: scroll;
@@ -1445,28 +1445,28 @@ body {
       height: 80%;
       text-align: left;
     }
-  
+
     .modal-body span {
       font-weight: bolder;
       font-size: large;
       color: #5e5c5c;
       font-style: italic;
     }
-  
+
     .modal-footer {
       padding: 15px 0;
     }
-  
+
     .icon i {
       color: #bfa317;
       cursor: pointer;
     }
-  
+
     .icon i:hover {
       color: black;
     }
   }
-  
+
   /* ------------------------------------------------ */
   /* UNDER CONSTRUCTION PAGE */
   .under-contruction {
@@ -1477,17 +1477,17 @@ body {
     align-items: center;
     flex-direction: column;
   }
-  
+
   .under-contruction img {
     width: 200px;
     padding: 10px;
   }
-  
+
   .under-contruction h1 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+
   @media (max-width: 730px) {
     .under-contruction {
       font-size: 4rem;
@@ -1502,9 +1502,9 @@ body {
       padding: 5px;
     }
   }
-  
+
   /* ALBUM REVIEW CONTENT */
-  
+
   .album-img-1 {
     background-image: url(./images/music/b+w/babirusa-humanoid-b+w.jpg);
     background-size: cover;
@@ -1546,7 +1546,7 @@ body {
     cursor: pointer;
   }
   .album-img-6 {
-    background-image: url(./images/music/b+w/within-destruction-yōkai-b+w.jpg);
+    background-image: url(./images/music/b+w/within-destruction-yōkai-b+w.jpg);
     background-size: cover;
   }
   .album-img-6:hover {
@@ -1585,9 +1585,9 @@ body {
     background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0a/Bring_Me_the_Horizon_Post_Human_Survival_Horror_Cover_Art_2020.jpg);
     cursor: pointer;
   }
-  
+
   /* MOVIE REVIEW CONTENT */
-  
+
   .film-img-1 {
     background-image: url(./images/film/b+w/bill-and-ted-b+w.jpg);
     background-size: cover;
@@ -1668,9 +1668,9 @@ body {
     background-image: url(https://thumbor.forbes.com/thumbor/711x1039/https://blogs-images.forbes.com/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-DOLBY-CINEMA.jpg?width=960);
     cursor: pointer;
   }
-  
+
   /* GAME REVIEW CONTENT */
-  
+
   .game-img-1 {
     background-image: url(./images/games/b+w/assassins-creed-valhalla-b+w.jpeg);
     background-size: cover;
@@ -1744,7 +1744,7 @@ body {
   .game-img-10:hover {
     background-image: url(https://m.media-amazon.com/images/M/MV5BODUwNWY5YjctNDZkNy00ZTY1LWEzMzItZGVkYTllOWVjOTc3XkEyXkFqcGdeQXVyNjU4NTIxNzI@._V1_.jpg);
   }
-  
+
   /* HOME PAGE FEATURED CONTENT */
   .featured-album-thumbnail {
     background-image: url(./images/music/b+w/babirusa-humanoid-b+w.jpg);
@@ -1780,10 +1780,9 @@ body {
     background-image: url(https://m.media-amazon.com/images/M/MV5BNThlNGM3ZmUtYjUyYy00ZTBhLWFmMTgtZmQyYmVkMmRlNjVlXkEyXkFqcGdeQXVyMTExNjQ2MTIw._V1_.jpg);
     cursor: pointer;
   }
-  
+
   .left-content li {
     text-align: center;
     font-size: 1rem;
     list-style: none;
   }
-  
