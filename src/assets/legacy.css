@@ -1276,6 +1276,8 @@ body {
       cursor: pointer;
       width: 230px;
       height: 366px;
+      width:100%;
+      position:relative;
     }
 
     .game-image {

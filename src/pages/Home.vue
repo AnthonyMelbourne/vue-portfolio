@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="main-content">
     <div class="left-content">
       <h1>Featured Reviews</h1>
       <li>(click image to open)</li>
@@ -307,7 +307,9 @@
               <i class="fas fa-times"></i>
             </button>
             <div>
-              <div class="modal-top-header">Bill and Ted - Face the Music</div>
+              <div class="modal-top-header">
+                Bill and Ted - Face the Music
+              </div>
               <div class="modal-bottom-header">(2020)</div>
             </div>
           </div>
@@ -385,9 +387,9 @@
             called Dennis, channelling Douglas Adams’s Marvin the Paranoid
             Android — a nice turn from Anthony Carrigan.
             <br /><br />
-            Putting a band together … Brigette Lundy-Paine and Samara
-            Weaving. Photograph: Landmark Media/Alamy Stock Photo Bill and Ted’s
-            wacky adventures and bizarre encounters with their own variously
+            Putting a band together … Brigette Lundy-Paine and Samara Weaving.
+            Photograph: Landmark Media/Alamy Stock Photo Bill and Ted’s wacky
+            adventures and bizarre encounters with their own variously
             transformed selves run in parallel with the attempts of Thea and
             Billie to assemble their own universe-saving supergroup on their
             dads’ behalf. They travel back to the 1960s and recruit Jimi Hendrix
@@ -445,20 +447,20 @@
             launch week. Historically, Activision has waited several weeks after
             the latest entry’s release to populate its micro-transaction shop.
             Reviewing a game before micro-transactions are live is a precarious
-            proposition. But now much has changed. Starting with Modern
-            Warfare in 2019, not only were map packs removed as DLC and replaced
-            with free maps and a seasonal battle pass, the games dispensed with
-            loot boxes entirely and adopted an Item Shop similar
-            to Fortnite, selling only cosmetics and weapon blueprints (which, to
-            be fair, are questionably pay-to-win in nature).
+            proposition. But now much has changed. Starting with Modern Warfare
+            in 2019, not only were map packs removed as DLC and replaced with
+            free maps and a seasonal battle pass, the games dispensed with loot
+            boxes entirely and adopted an Item Shop similar to Fortnite, selling
+            only cosmetics and weapon blueprints (which, to be fair, are
+            questionably pay-to-win in nature).
             <br /><br />
             Still, how do you review a game that hasn’t even launched its first
             season, that hasn’t fully integrated into the free-to-play Battle
             Royale mode, Warzone yet? You can’t, I’d argue. It’s not the
-            complete game yet. In this review I’ll discuss the Cold
-            War campaign, multiplayer, integration into Warzone and Season 1
-            content as a barometer for future seasonal content. I will not
-            discuss Zombies mode as I don’t really play that mode and don’t feel
+            complete game yet. In this review I’ll discuss the Cold War
+            campaign, multiplayer, integration into Warzone and Season 1 content
+            as a barometer for future seasonal content. I will not discuss
+            Zombies mode as I don’t really play that mode and don’t feel
             comfortable reviewing it. I’ve never enjoyed Zombies modes in the
             past and I don’t expect that to change now. In interest of fairness,
             I will leave that aside.
@@ -522,11 +524,10 @@
             evidence and exploring and the difficulty setting you select. Par
             for the course when it comes to this franchise, which is fine by me.
             So many games are so long. I enjoy getting through a campaign in
-            just a few sittings. Is the campaign as good as Modern
-            Warfare 2019’s? I think so, actually. I rank them fairly
-            neck-and-neck. It even includes at least one crossover character
-            from the Modern Warfare universe, as these two franchises grow ever
-            closer.
+            just a few sittings. Is the campaign as good as Modern Warfare
+            2019’s? I think so, actually. I rank them fairly neck-and-neck. It
+            even includes at least one crossover character from the Modern
+            Warfare universe, as these two franchises grow ever closer.
             <br /><br />
             <iframe
               width="560"
@@ -604,8 +605,8 @@
               <br /><br />
               -I do like that Cold War is a faster, more arcadey entry in the
               series. I suppose this is where a Destiny 2 style approach might
-              suffer (though if Activision continues to tie each entry
-              to Warzone this actually makes it kind of weird—more on that in a
+              suffer (though if Activision continues to tie each entry to
+              Warzone this actually makes it kind of weird—more on that in a
               second). In any case, Cold War feels much less like a military-sim
               game and much more like a video game, if that makes sense. It’s
               speedier and less realistic, even without double-sprint. This can
@@ -634,13 +635,13 @@
               phased. That’s how we should all be with SBMM. You get placed
               against tougher lobbies? “Git gud”.
               <br /><br />
-              Overall, I have been switching between both Modern
-              Warfare and Cold War multiplayer lately and I find both to be a
-              lot of fun. But I only player Modern Warfare when it comes to
-              local split-screen because Treyarch has not, after all these
-              years, figured out how to implement something that both Infinity
-              Ward and Sledgehammer have done without issue in Modern
-              Warfare and WWII.</span
+              Overall, I have been switching between both Modern Warfare and
+              Cold War multiplayer lately and I find both to be a lot of fun.
+              But I only player Modern Warfare when it comes to local
+              split-screen because Treyarch has not, after all these years,
+              figured out how to implement something that both Infinity Ward and
+              Sledgehammer have done without issue in Modern Warfare and
+              WWII.</span
             >
             <br /><br />
             <span>Warzone</span><br />
@@ -655,11 +656,11 @@
             For one thing, Warzone plays just like Modern Warfare. The game was
             designed by Raven Software and Infinity Ward in tandem with Modern
             Warfare on the same engine with the same mechanics. So you can
-            double-sprint, mount guns and so forth. Movement is the same
-            as Modern Warfare. Moving from Black Ops Cold War to Warzone is
-            jarring. The two games are nothing alike, and yet here we’ve
-            made Cold War and Warzone share a Battle Pass and weapons and all
-            the rest.
+            double-sprint, mount guns and so forth. Movement is the same as
+            Modern Warfare. Moving from Black Ops Cold War to Warzone is
+            jarring. The two games are nothing alike, and yet here we’ve made
+            Cold War and Warzone share a Battle Pass and weapons and all the
+            rest.
             <br /><br />
             It doesn’t work. From a business standpoint, it doesn’t even make
             sense. Modern Warfare was only six seasons old when Activision
@@ -672,29 +673,29 @@
             much. I’m not alone in this.
             <br /><br />
             What’s the alternative? Well, Activision and Treyarch could have
-            gone multiple routes here. They could have released an
-            updated Blackout battle royale game that was free-to-play just
-            like Warzone. Maybe they didn’t want two competing free-to-play
-            battle royales, but I’m not sure that would have been an actual
-            problem. Fans of Black Ops would play Blackout. Fans of Modern
-            Warfare would play Warzone. Both could have their own battle
-            pass/seasonal systems and both could make money while each would
-            retain its distinct play-style, mechanics and so forth. Or Treyarch
-            could create a live-service, free-to-play Zombies game instead, and
-            tie each Black Ops entry to that, leaving Battle Royale to Modern
-            Warfare. Zombies is one of the most popular aspects of Black Ops as
-            a series, and a free-to-play Zombies game that kept growing and
-            expanding with new seasonal content over the years could be a huge
-            hit. Either way would be better than what has happened instead—the
-            premature death of Modern Warfare, one of my favorite FPSs in years,
-            and the awkward, messy intertwining of Cold War and Warzone.
+            gone multiple routes here. They could have released an updated
+            Blackout battle royale game that was free-to-play just like Warzone.
+            Maybe they didn’t want two competing free-to-play battle royales,
+            but I’m not sure that would have been an actual problem. Fans of
+            Black Ops would play Blackout. Fans of Modern Warfare would play
+            Warzone. Both could have their own battle pass/seasonal systems and
+            both could make money while each would retain its distinct
+            play-style, mechanics and so forth. Or Treyarch could create a
+            live-service, free-to-play Zombies game instead, and tie each Black
+            Ops entry to that, leaving Battle Royale to Modern Warfare. Zombies
+            is one of the most popular aspects of Black Ops as a series, and a
+            free-to-play Zombies game that kept growing and expanding with new
+            seasonal content over the years could be a huge hit. Either way
+            would be better than what has happened instead—the premature death
+            of Modern Warfare, one of my favorite FPSs in years, and the
+            awkward, messy intertwining of Cold War and Warzone.
             <br /><br />
             That being said, I’m not entirely critical. I love the new Rebirth
             Island map. It’s much smaller than Verdansk, and new modes like
             Resurgence are great fun. I also like being able to play my Cold War
-            Operators in the Warzone engine. And use the Cold War guns in
-            the Warzone engine, which I find superior, thus making it the best
-            way to play Cold War ironically enough.
+            Operators in the Warzone engine. And use the Cold War guns in the
+            Warzone engine, which I find superior, thus making it the best way
+            to play Cold War ironically enough.
             <br /><br />
             But other players might prefer how Cold War plays—which is fine!—and
             would probably love a battle royale that played just like it. So why
@@ -705,10 +706,10 @@
             each. Each game would have a distinct feel. If a third game from
             Sledgehammer is in the works still, we could have a third
             free-to-play battle royale to accompany it, replete with seasonal
-            content and Battle Pass. Imagine a new WWII game or Advanced
-            Warfare game that also had a battle royale. That would be terrific!
-            I’d play either of those in a heartbeat, while still rotating
-            between Warzone, Blackout and all the rest. I’ll expand on this in a
+            content and Battle Pass. Imagine a new WWII game or Advanced Warfare
+            game that also had a battle royale. That would be terrific! I’d play
+            either of those in a heartbeat, while still rotating between
+            Warzone, Blackout and all the rest. I’ll expand on this in a
             separate post, but it’s hard not to talk about it in some depth in a
             review of Cold War. And it will remain an issue for each subsequent
             game Activision tries to tie to Warzone, which is why I really hope
@@ -1148,7 +1149,8 @@
             note with haunting spoken words and a powerful chord driven chorus
             that was made for epic crowd sing a longs, with great lyrics to
             boot, before launching into a seizure inducing riff section, that
-            wouldn’t feel out of place on an <span>Architects</span>
+            wouldn’t feel out of place on an
+            <span>Architects</span>
             record, but BFW make it squarely their own.
             <br /><br />
             The third single, 'NIGHT CROSSING', opens up with a melodic lead
@@ -1474,9 +1476,9 @@
             />
             <span>Is ‘The New Mutants’ The Worst ‘X-Men’ Movie Ever?</span>
             <span
-              >Fox (and now Disney’s) groundbreaking (if
-              inconsistent) X-Men franchise deserved a better send-off than this
-              nothing-burger of a movie.</span
+              >Fox (and now Disney’s) groundbreaking (if inconsistent) X-Men
+              franchise deserved a better send-off than this nothing-burger of a
+              movie.</span
             >
             <br /><br />
             Note: I’m not going to lecture you about attending movie theaters,
@@ -1532,19 +1534,19 @@
               alt="The New Mutants promo"
               class="feature-one-promo"
             />
-            The film does indeed take place within the world of
-            Fox’s X-Men series, although that franchise’s random continuity
-            negates much interconnectivity. There’s, at best, a few verbal
-            references to the X-Men and a fleeting non-verbal reference to
-            Charles Xavier, a character who either still runs the Xavier School
-            For Gifted Youngsters (X-Men: Days of Future Past) or left the
-            school to Hank McCoy after his attempts to control Jean Grey went
-            awry (Dark Phoenix). Regardless, these aren’t exactly flagship
-            characters, and nobody wears anything resembling a comic book
-            costume, so the film has to stand on its own as a spin-off that just
-            happens to take place in an existing universe. While the film could
-            be commended for being a full-throated genre approximation, it still
-            plays out as expected in terms of comic book superhero expectations.
+            The film does indeed take place within the world of Fox’s X-Men
+            series, although that franchise’s random continuity negates much
+            interconnectivity. There’s, at best, a few verbal references to the
+            X-Men and a fleeting non-verbal reference to Charles Xavier, a
+            character who either still runs the Xavier School For Gifted
+            Youngsters (X-Men: Days of Future Past) or left the school to Hank
+            McCoy after his attempts to control Jean Grey went awry (Dark
+            Phoenix). Regardless, these aren’t exactly flagship characters, and
+            nobody wears anything resembling a comic book costume, so the film
+            has to stand on its own as a spin-off that just happens to take
+            place in an existing universe. While the film could be commended for
+            being a full-throated genre approximation, it still plays out as
+            expected in terms of comic book superhero expectations.
             <br /><br />
             Due to obvious franchise aspirations, we have five primary
             characters who all get introductions, sequences where they show off
@@ -1570,9 +1572,9 @@
             the only characters in the movie. The 90-minute flick consists of
             these five youngsters going through a standard TV pilot-style heroic
             awakening with the presumption that they’ll be the marquee
-            characters/heroes fans wanted to see in the next movie.
-            Considering Dark Phoenix’s failure and Disney’s presumed intent to
-            reboot X-Men into the existing MCU, this route is especially cruel.
+            characters/heroes fans wanted to see in the next movie. Considering
+            Dark Phoenix’s failure and Disney’s presumed intent to reboot X-Men
+            into the existing MCU, this route is especially cruel.
             <br /><br />
             Lacking marquee characters and existing as a feature-length
             prologue, The New Mutants fails as a teen melodrama and, partially
@@ -1600,7 +1602,9 @@
               <i class="fas fa-times"></i>
             </button>
             <div>
-              <div class="modal-top-header">Call of Duty : Modern Warfare</div>
+              <div class="modal-top-header">
+                Call of Duty : Modern Warfare
+              </div>
               <div class="modal-bottom-header">Playstation 4</div>
             </div>
           </div>
@@ -1610,15 +1614,15 @@
               class="feature-two-img"
               alt="Call of Duty - Modern Warfare cover"
             />
-            Call Of Duty: Modern Warfare is half prequel, half reboot to
-            the Modern Warfare franchise. The game takes place before the events
-            of Call Of Duty 4: Modern Warfare, but since this is a re-imagining
-            of the entire story, developer Infinity Ward still has plenty of
-            room to not simply revisit the events of those earlier games, but
-            alter and expand upon them however they see fit.<br />
+            Call Of Duty: Modern Warfare is half prequel, half reboot to the
+            Modern Warfare franchise. The game takes place before the events of
+            Call Of Duty 4: Modern Warfare, but since this is a re-imagining of
+            the entire story, developer Infinity Ward still has plenty of room
+            to not simply revisit the events of those earlier games, but alter
+            and expand upon them however they see fit.<br />
             It’s also a return to a more grounded, realistic military shooter
-            after years of futuristic entries (Call Of Duty:
-            WWII notwithstanding). Gone are advanced mobility
+            after years of futuristic entries (Call Of Duty: WWII
+            notwithstanding). Gone are advanced mobility
             mechanics–double-jumping and wall-running–and good riddance. You’re
             still able to slide into a crouch, and Infinity Ward has added
             door-mechanics that allow you to either open doors slowly or burst
@@ -1666,12 +1670,12 @@
             I’ve played every single Call Of Duty campaign since Call Of Duty 4:
             Modern Warfare (and a couple of the pre-Modern Warfare campaigns as
             well) and I’ve enjoyed some more than others. Some of my favorites
-            include Call Of Duty 4: Modern Warfare, Modern Warfare 2, Black
-            Op and Black Ops 2, World at War, WWII and Advanced Warfare.<br />
+            include Call Of Duty 4: Modern Warfare, Modern Warfare 2, Black Op
+            and Black Ops 2, World at War, WWII and Advanced Warfare.<br />
             Where the Modern Warfare campaign sits in the rankings of all those
             games is hard to say, but it’s some of the most fun I’ve had since
-            the Modern Warfare trilogy, and I’d probably put it right
-            above Black Ops 2 which I enjoyed immensely.<br />
+            the Modern Warfare trilogy, and I’d probably put it right above
+            Black Ops 2 which I enjoyed immensely.<br />
             <br /><br />
             <span>Story And Missions</span><br />
             For the purposes of this review, I will avoid spoilers as much as
@@ -1689,8 +1693,8 @@
             Knight), a British soldier in the SAS. You’ll play as freedom
             fighter Farah Karim (Claudia Doumit) but only in very short
             instances.<br />
-            Like the previous Modern Warfare games and first two Black
-            Ops games, the story takes place in “modern” times. This isn’t
+            Like the previous Modern Warfare games and first two Black Ops
+            games, the story takes place in “modern” times. This isn’t
             historical or futuristic. Most of the story takes place in fictional
             Urzikstan though some of it takes place elsewhere, including the
             UK.<br />
@@ -1719,10 +1723,10 @@
             as a troop of Russian soldiers walks slowly past. This is certainly
             reminiscent of “All Ghillied Up” though much briefer and less
             original. There’s another scene where you briefly fire rockets and
-            down on tiny little enemy soldiers and tanks that’s
-            like CoD4’s Death From Above mission but again, much more brief and
-            much more part of the breathtaking action rather than the almost
-            detached brutality of the original.
+            down on tiny little enemy soldiers and tanks that’s like CoD4’s
+            Death From Above mission but again, much more brief and much more
+            part of the breathtaking action rather than the almost detached
+            brutality of the original.
             <br /><br />
             There are other, similar scenes but I won’t spoil any. I don’t mind
             these callbacks at all, to be honest, though I’m not sure the game
@@ -1778,11 +1782,11 @@
             often, but you that just means you have to adjust your play-style a
             bit. Be more cautious. Learn where people like to camp. I know,
             change is hard. But in this case, I think it’s also very good.<br />
-            Gameplay is essentially what you’ve come to expect from Call Of
-            Duty though there’s some nice little additions like the ability to
-            mount your gun on most surfaces, whether that’s the corner of a wall
-            or a crate you’re using for cover. This is a great feature that I
-            hope the franchise continues to use in later games.
+            Gameplay is essentially what you’ve come to expect from Call Of Duty
+            though there’s some nice little additions like the ability to mount
+            your gun on most surfaces, whether that’s the corner of a wall or a
+            crate you’re using for cover. This is a great feature that I hope
+            the franchise continues to use in later games.
             <br /><br />
             There’s some cool little changes to the game’s structure that make
             it even more enjoyable. The “Pick 10” system is gone, allowing you
@@ -1823,8 +1827,8 @@
             who have no interest in reviving downed teammates or sticking
             together. That’s not the mode’s fault, of course, but it is a
             challenge to overcome.<br />
-            All told, the sheer breadth of mutliplayer options on offer
-            in Modern Warfare gives players an astounding amount of stuff to do,
+            All told, the sheer breadth of mutliplayer options on offer in
+            Modern Warfare gives players an astounding amount of stuff to do,
             modes to play, challenges to overcome. Speaking of which, there are
             daily and special challenges (get X number of kills with a shotgun
             style) available now and once the Battle Pass is live I’m sure there
@@ -1868,9 +1872,9 @@
             just makes the shooting that much tighter and more intense.<br />
             Meanwhile, the original score by Sarah Schachner is excellent–an
             intense musical companion to the intense campaign. It’s not my
-            favorite Call of Duty OST–in modern memory, I’m quite partial
-            to WWII’s OST by Wilbert Roget II and its sweeping horns. But this
-            one is quite good, especially in its Middle Eastern pieces like
+            favorite Call of Duty OST–in modern memory, I’m quite partial to
+            WWII’s OST by Wilbert Roget II and its sweeping horns. But this one
+            is quite good, especially in its Middle Eastern pieces like
             “Farah.”<br />
             The game looks and sounds incredible. It’s almost a shame so many
             ugly things happen in the campaign. Such beauty juxtaposed with such
@@ -1948,8 +1952,8 @@
             also keeps communicating with players about the issues they’re
             having with the game, as open communication is vital to the
             community and game.<br />
-            In any case, if you’ve been holding off on buying new Call Of
-            Duty games, or if you’re just sick of the futuristic shooters or the
+            In any case, if you’ve been holding off on buying new Call Of Duty
+            games, or if you’re just sick of the futuristic shooters or the
             hero-shooter aspects of Black Ops 4, this is the perfect time to
             return to the series. Even if you just play for the campaign, I
             think this one is worth your time and money. I give it a Buy on my
@@ -2163,7 +2167,9 @@
               <i class="fas fa-times"></i>
             </button>
             <div>
-              <div class="modal-top-header">PlayerUnknown's Battlegrounds</div>
+              <div class="modal-top-header">
+                PlayerUnknown's Battlegrounds
+              </div>
               <div class="modal-bottom-header">Playstation 4</div>
             </div>
           </div>
@@ -2377,7 +2383,8 @@ export default {
 </script>
 
 <style>
-#app {
-  height: 1000px;
+.main-content {
+  display: flex;
+  flex-direction: row;
 }
 </style>
