@@ -2,8 +2,16 @@
   <div id="app">
   <site-header></site-header>
   <navigation></navigation>
-    <router-view />
-      <site-footer></site-footer>
+    <section class="outer-border">
+        <section class="middle-border">
+            <section class="inner-border">
+                <section class="content-parent">
+                  <router-view />
+                </section>
+            </section>
+        </section>
+    </section>
+    <site-footer></site-footer>
   </div>
 </template>
 

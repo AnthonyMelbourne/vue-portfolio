@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-      <h1>Music Reviews</h1>
+      <h1>Movie Reviews</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MusicReviews',
+  name: 'MovieReviews',
 }
 </script>
 

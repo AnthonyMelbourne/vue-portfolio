@@ -1,39 +1,45 @@
 <template>
-<nav class="nav-parent">
-
+    <nav class="nav-parent">
         <div class="desktop-navbar-buttons">
             <ul>
                 <li class="button"><a href="../index.html">Home</a></li>
-                <li class="button" id="music-button">Music</li>
-                <li class="button" id="film-button">Movies</li>
-                <li class="button" id="games-button">Games</li>
+                <li class="button" id="music-button">Music
+                    <nav class="dropdown-menu" id="music-1">
+                        <ul class="menu-item-list">
+                            <li><i class="fas fa-music"></i></li>
+                            <li><a href="music-reviews.html">Reviews</a></li>
+                            <li><a href="UNDER-CONSTRUCTION.html">Interviews</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="button" id="film-button">Movies
+                    <nav class="dropdown-menu" id="film-2">
+                        <ul class="menu-item-list">
+                            <li><i class="fas fa-film"></i></li>
+                            <li><a href="film-reviews.html">Reviews</a></li>
+                            <li><a href="UNDER-CONSTRUCTION.html">Top 10's</a></li>
+                        </ul>
+                    </nav>
+                </li>
+
+                <li class="button" id="games-button">Games
+                    <nav class="dropdown-menu" id="games-3">
+                        <ul class="menu-item-list">
+                            <li><i class="fas fa-gamepad"></i></li>
+                            <li><a href="game-reviews.html">Reviews</a></li>
+                            <li><a href="UNDER-CONSTRUCTION.html">Guides</a></li>
+                        </ul>
+                    </nav>
+                </li>
                 <li class="button"><a href="UNDER-CONSTRUCTION.html">Store</a></li>
             </ul>
         </div>
 
-        <nav class="dropdown-menu" id="music-1">
-            <ul class="menu-item-list">
-                <li><i class="fas fa-music"></i></li>
-                <li><a href="music-reviews.html">Reviews</a></li>
-                <li><a href="UNDER-CONSTRUCTION.html">Interviews</a></li>
-            </ul>
-        </nav>
+        
 
-        <nav class="dropdown-menu" id="film-2">
-            <ul class="menu-item-list">
-                <li><i class="fas fa-film"></i></li>
-                <li><a href="film-reviews.html">Reviews</a></li>
-                <li><a href="UNDER-CONSTRUCTION.html">Top 10's</a></li>
-            </ul>
-        </nav>
+        
 
-        <nav class="dropdown-menu" id="games-3">
-            <ul class="menu-item-list">
-                <li><i class="fas fa-gamepad"></i></li>
-                <li><a href="game-reviews.html">Reviews</a></li>
-                <li><a href="UNDER-CONSTRUCTION.html">Guides</a></li>
-            </ul>
-        </nav>
+        
 
         <nav>
             <div id="mobileMenu" class="mobile-menu">
@@ -61,5 +67,7 @@ export default {
 </script>
 
 <style>
-
+.desktop-navbar-buttons .button:hover .dropdown-menu {
+    display: block;
+}
 </style>
