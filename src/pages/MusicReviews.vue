@@ -1,10 +1,15 @@
 <template>
   <div id="app" class="main-content">
-    <div class="image-gallery">
+    <header class="content-header">
+      <div class="heading">Album Reviews</div>
+      <div class="sub-heading">(click image to open)</div>
+    </header>
+
+    <section class="image-gallery">
       <div v-for="(music, key) in music" :key="key">
         <img :src="music.fields.cover.fields.file.url" alt="" />
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -39,8 +44,15 @@ export default {
 </script>
 
 <style scoped>
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
 img {
-  width: 230px;
-  height: 247px;
+  width: 266px;
+  height: 267px;
 }
 </style>

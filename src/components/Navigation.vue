@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-parent">
+  <nav id="app" class="nav-parent">
     <div class="desktop-navbar-buttons">
       <ul>
         <li class="button"><a href="../index.html">Home</a></li>
@@ -77,5 +77,6 @@ export default {
 .menu-item-list {
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 </style>
