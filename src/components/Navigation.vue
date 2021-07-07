@@ -79,4 +79,7 @@ export default {
   flex-direction: column;
   z-index: 1;
 }
+nav {
+  z-index: 1;
+}
 </style>
