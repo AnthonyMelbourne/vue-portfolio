@@ -7,7 +7,11 @@
 
     <section class="image-gallery">
       <div v-for="(music, key) in music" :key="key">
-        <img :src="music.fields.cover.fields.file.url" alt="Cover Art" />
+        <img
+          :src="music.fields.cover.fields.file.url"
+          alt="Cover Art"
+          @click="openReview(music)"
+        />
       </div>
     </section>
   </div>
@@ -23,6 +27,12 @@ export default {
     };
   },
   methods: {
+    openReview(musicObject) {
+      this.$emit('openModal', {
+        type: 'music',
+        article: musicObject
+      });
+    },
     load() {
       this.$contentful
         .getEntries({

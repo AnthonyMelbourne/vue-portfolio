@@ -6,13 +6,19 @@
       <section class="middle-border">
         <section class="inner-border">
           <section class="content-parent">
-            <router-view />
-            <site-modal></site-modal>
+            <router-view
+              @openModal="showDialog"
+            />
           </section>
         </section>
       </section>
     </section>
     <site-footer></site-footer>
+    <site-modal
+      :open="dialogIsVisible"
+      :content="dialogContent"
+      @close="dialogIsVisible = false"
+    />
   </div>
 </template>
 
@@ -27,6 +33,7 @@ export default {
   data() {
     return {
       dialogIsVisible: false,
+      dialogContent: {},
     };
   },
   name: "App",
@@ -37,7 +44,8 @@ export default {
     SiteModal,
   },
   methods: {
-    showDialog() {
+    showDialog(data) {
+      this.dialogContent = data;
       this.dialogIsVisible = true;
     },
     hideDialog() {

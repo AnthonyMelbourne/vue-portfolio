@@ -1,16 +1,21 @@
 <template>
-<div>
-  <div v-if="open" class="backdrop" @click="$emit('close')"></div>
+  <div>
+    <div v-if="open" class="backdrop" @click="$emit('close')"></div>
+
     <dialog open v-if="open">
-      <slot></slot>
+      <music-review v-if="content.type === 'music'" :article="content.article" />
+      <movie-review v-if="content.type === 'movie'" :article="content.article" />
     </dialog>
-    </div>
+  </div>
 </template>
 
 <script>
+import MusicReview from "./MusicReview.vue";
+import MovieReview from "./MovieReview.vue";
+
 export default {
-  props: ['open'],
-  emits: ['close']
+  components: { MovieReview, MusicReview },
+  props: ['open', 'content']
 };
 </script>
 
