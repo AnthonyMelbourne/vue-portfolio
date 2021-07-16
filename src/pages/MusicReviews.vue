@@ -7,7 +7,7 @@
 
     <section class="image-gallery">
       <div v-for="(music, key) in music" :key="key">
-        <img :src="music.fields.cover.fields.file.url" alt="" />
+        <img :src="music.fields.cover.fields.file.url" alt="Cover Art" />
       </div>
     </section>
   </div>
@@ -54,5 +54,6 @@ export default {
 img {
   width: 266px;
   height: 267px;
+  cursor: pointer;
 }
 </style>

@@ -54,5 +54,6 @@ export default {
 img {
   height: 375px;
   width: 266px;
+  cursor: pointer;
 }
 </style>

@@ -52,7 +52,8 @@ export default {
   text-align: center;
 }
 img {
-  height: 375px;
+  height: 355px;
   width: 266px;
+  cursor: pointer;
 }
 </style>
