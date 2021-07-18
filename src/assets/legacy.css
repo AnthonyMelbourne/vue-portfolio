@@ -526,24 +526,6 @@ a:hover {
     margin: 5px;
   }
 
-  .video-1 {
-    margin: 5px;
-    width: 100%;
-    height: 200px;
-  }
-
-  .video-2 {
-    margin: 5px;
-    width: 330px;
-    height: 200px;
-  }
-
-  .video-3 {
-    margin: 5px;
-    width: 330px;
-    height: 200px;
-  }
-
   .album-image {
     background-size: cover;
     border: 2px black solid;
@@ -983,21 +965,6 @@ a:hover {
     margin: 5px;
   }
 
-  .video-1 {
-    float: right;
-    margin: 5px;
-  }
-
-  .video-2 {
-    float: left;
-    margin: 5px;
-  }
-
-  .video-3 {
-    float: right;
-    margin: 5px;
-  }
-
   /* MODAL TABLET */
 
   .modal-open {
@@ -1359,21 +1326,6 @@ a:hover {
     margin: 5px;
   }
 
-  .video-1 {
-    float: right;
-    margin: 5px;
-  }
-
-  .video-2 {
-    float: left;
-    margin: 5px;
-  }
-
-  .video-3 {
-    float: right;
-    margin: 5px;
-  }
-
   /* MODAL DESKTOP */
 
   .modal-open {
@@ -1423,7 +1375,7 @@ a:hover {
     text-align: left;
     font-family: "Teko", sans-serif;
   }
-  
+
   .modal-close i {
     color: #bfa317;
     cursor: pointer;
@@ -1433,12 +1385,10 @@ a:hover {
     color: black;
   }
 
-
   .modal-body {
     height: 380px;
     overflow-y: scroll;
   }
-
 }
 
 /* ------------------------------------------------ */
@@ -1803,4 +1753,3 @@ img:hover {
 .close:hover i {
   color: black;
 }
-
