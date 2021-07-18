@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import MusicReviewDialog from "./MusicReviewDialog.vue";
-import MovieReviewDialog from "./MovieReviewDialog.vue";
-import GameReviewDialog from "./GameReviewDialog.vue";
+import MusicReviewDialog from "./dialogs/MusicReviewDialog.vue";
+import MovieReviewDialog from "./dialogs/MovieReviewDialog.vue";
+import GameReviewDialog from "./dialogs/GameReviewDialog.vue";
 
 export default {
   components: { MovieReviewDialog, MusicReviewDialog, GameReviewDialog },
