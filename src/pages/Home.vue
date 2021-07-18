@@ -7,10 +7,7 @@
         <div class="featured">
           <div class="featured-excerpt">
             <p>
-              "Call of Duty Black Ops Cold War -- the direct sequel to the
-              original and fan-favorite Call of Duty: Black Ops -- drops fans
-              into the depths of the Cold War’s volatile geopolitical battle of
-              the early 1980s."
+              "{{ featuredGame.fields.description }}"
             </p>
           </div>
           <button
@@ -131,6 +128,71 @@
 <script>
 export default {
   name: "Home",
+  data() {
+    return {
+      featuredMusic: {},
+      featuredMovie: {},
+      featuredGame: {},
+      music: [],
+      movies: [],
+      games: [],
+    }
+  },
+  methods: {
+    loadMusic() {
+      this.$contentful
+        .getEntries({
+          content_type: "music",
+          order: '-sys.createdAt',
+          limit: 4,
+        })
+        .then((res) => {
+          this.featuredMusic = res.items.shift();
+          this.music = res.items;
+          this.loading = false;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    loadMovies() {
+      this.$contentful
+        .getEntries({
+          content_type: "movie",
+          order: '-sys.createdAt',
+          limit: 4,
+        })
+        .then((res) => {
+          this.featuredMovie = res.items.shift();
+          this.movies = res.items;
+          this.loading = false;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    loadGames() {
+      this.$contentful
+        .getEntries({
+          content_type: "game",
+          order: '-sys.createdAt',
+          limit: 4,
+        })
+        .then((res) => {
+          this.featuredGame = res.items.shift();
+          this.games = res.items;
+          this.loading = false;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+  },
+  mounted() {
+    this.loadMusic();
+    this.loadMovies();
+    this.loadGames();
+  }
 };
 </script>
 
