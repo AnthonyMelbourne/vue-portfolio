@@ -7,7 +7,11 @@
 
     <section class="image-gallery">
       <div v-for="(movie, key) in movies" :key="key">
-        <img :src="movie.fields.cover.fields.file.url" alt="" />
+        <img
+          :src="movie.fields.cover.fields.file.url"
+          alt="Cover Art"
+          @click="openReview(movie)"
+        />
       </div>
     </section>
   </div>
@@ -23,6 +27,12 @@ export default {
     };
   },
   methods: {
+    openReview(movieObject) {
+      this.$emit('openModal', {
+        type: 'movie',
+        article: movieObject
+      });
+    },
     load() {
       this.$contentful
         .getEntries({

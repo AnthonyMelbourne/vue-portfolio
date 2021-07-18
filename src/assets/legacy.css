@@ -619,14 +619,15 @@ a:hover {
     padding: 2px 0;
   }
 
-  .modal-top-header {
+  .modal-heading {
+    color: black;
     font-size: 1.6rem;
     text-align: left;
     font-family: "UnifrakturCook", cursive;
   }
 
-  .modal-bottom-header {
-    font-size: 1.2rem;
+  .modal-subheading {
+    font-size: 1.4rem;
     text-align: left;
     font-family: "Teko", sans-serif;
   }
@@ -645,29 +646,19 @@ a:hover {
     font-size: 1.6em;
     overflow-y: scroll;
     color: #7b7b7b;
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     height: 84%;
     overflow-x: hidden;
     text-align: left;
   }
 
-  .modal-body span {
-    font-weight: bolder;
-    font-size: large;
-    color: #5e5c5c;
-    font-style: italic;
-  }
-
-  .modal-footer {
-    padding: 15px 0;
-  }
-
-  .icon i {
+  .modal-close i {
     color: #bfa317;
     cursor: pointer;
   }
 
-  .icon i:hover {
+  .modal-close i:hover {
     color: black;
   }
 }
@@ -1043,13 +1034,14 @@ a:hover {
   .modal-header {
     padding: 2px 0;
   }
-  .modal-top-header {
+  .modal-heading {
     font-size: 2rem;
     text-align: left;
     font-family: "UnifrakturCook", cursive;
   }
 
-  .modal-bottom-header {
+  .modal-subheading {
+    color: black;
     font-size: 1.6rem;
     text-align: left;
     font-family: "Teko", sans-serif;
@@ -1085,12 +1077,12 @@ a:hover {
     padding: 15px 0;
   }
 
-  .icon i {
+  .modal-close i {
     color: #bfa317;
     cursor: pointer;
   }
 
-  .icon i:hover {
+  .modal-close i:hover {
     color: black;
   }
 }
@@ -1419,56 +1411,34 @@ a:hover {
     padding: 2px 0;
   }
 
-  .modal-top-header {
+  .modal-heading {
+    color: black;
     font-size: 3rem;
     text-align: left;
     font-family: "UnifrakturCook", cursive;
   }
 
-  .modal-bottom-header {
-    font-size: 2rem;
+  .modal-subheading {
+    font-size: 1.8rem;
     text-align: left;
     font-family: "Teko", sans-serif;
   }
-
-  .modal-header.modal-close {
-    float: right;
-    font-size: 20px;
-    background: #efefef;
-    border: 0;
-    outline: 0;
-    padding: 2px 2px;
-    border-radius: 50%;
-  }
-
-  .modal-body {
-    font-size: 1.6em;
-    overflow-y: scroll;
-    color: #7b7b7b;
-    padding: 5px 0;
-    height: 80%;
-    text-align: left;
-  }
-
-  .modal-body span {
-    font-weight: bolder;
-    font-size: large;
-    color: #5e5c5c;
-    font-style: italic;
-  }
-
-  .modal-footer {
-    padding: 15px 0;
-  }
-
-  .icon i {
+  
+  .modal-close i {
     color: #bfa317;
     cursor: pointer;
   }
 
-  .icon i:hover {
+  .modal-close i:hover {
     color: black;
   }
+
+
+  .modal-body {
+    height: 380px;
+    overflow-y: scroll;
+  }
+
 }
 
 /* ------------------------------------------------ */
@@ -1793,7 +1763,6 @@ a:hover {
 
 /* <------ VUE-PORTFOLIO STYLES  ------> */
 
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -1820,3 +1789,18 @@ img {
 img:hover {
   filter: none;
 }
+
+.close {
+  float: right;
+  font-size: 20px;
+  background: #efefef;
+  border: 0;
+  outline: 0;
+  padding: 5px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close:hover i {
+  color: black;
+}
+

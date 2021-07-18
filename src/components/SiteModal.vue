@@ -3,19 +3,30 @@
     <div v-if="open" class="backdrop" @click="$emit('close')"></div>
 
     <dialog open v-if="open">
-      <music-review v-if="content.type === 'music'" :article="content.article" />
-      <movie-review v-if="content.type === 'movie'" :article="content.article" />
+      <music-review-dialog
+        v-if="content.type === 'music'"
+        :article="content.article"
+      />
+      <movie-review-dialog
+        v-if="content.type === 'movie'"
+        :article="content.article"
+      />
+      <game-review-dialog
+        v-if="content.type === 'game'"
+        :article="content.article"
+      />
     </dialog>
   </div>
 </template>
 
 <script>
-import MusicReview from "./MusicReview.vue";
-import MovieReview from "./MovieReview.vue";
+import MusicReviewDialog from "./MusicReviewDialog.vue";
+import MovieReviewDialog from "./MovieReviewDialog.vue";
+import GameReviewDialog from "./GameReviewDialog.vue";
 
 export default {
-  components: { MovieReview, MusicReview },
-  props: ['open', 'content']
+  components: { MovieReviewDialog, MusicReviewDialog, GameReviewDialog },
+  props: ["open", "content"],
 };
 </script>
 
@@ -32,37 +43,21 @@ export default {
 
 dialog {
   position: fixed;
-  top: 30vh;
-  width: 30rem;
-  left: calc(50% - 15rem);
-  margin: 0;
+  top: 10px;
+  bottom: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
   padding: 1rem;
-  background-color: white;
+  background-color: #fff;
   z-index: 100;
-  border: none;
-  /* animation: modal 0.3s ease-out forwards; */
-}
-.modal-enter-from {}
 
-.modal-enter-active {
-  animation: modal 0.3s ease-out;
-}
-.modal-leave-active {
-  animation: modal 0.3s ease-in reverse;
-}
-
-.modal-enter.to {}
-
-@keyframes modal {
-  from {
-    opacity: 0;
-    transform: translateY(-50px) scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+  border: #bfa317 3px solid;
+  margin-top: 25px;
+  width: 90%;
+  max-height: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 24px;
 }
 </style>

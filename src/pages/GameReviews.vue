@@ -7,7 +7,11 @@
 
     <section class="image-gallery">
       <div v-for="(game, key) in game" :key="key">
-        <img :src="game.fields.cover.fields.file.url" alt="" />
+        <img
+          :src="game.fields.cover.fields.file.url"
+          alt="Cover Art"
+          @click="openReview(game)"
+        />
       </div>
     </section>
   </div>
@@ -23,6 +27,12 @@ export default {
     };
   },
   methods: {
+    openReview(gameObject) {
+      this.$emit('openModal', {
+        type: 'game',
+        article: gameObject
+      });
+    },
     load() {
       this.$contentful
         .getEntries({
