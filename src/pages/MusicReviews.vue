@@ -37,6 +37,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "music",
+          order: '-sys.createdAt'
         })
         .then((res) => {
           this.music = res.items;

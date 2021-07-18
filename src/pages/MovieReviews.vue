@@ -37,6 +37,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "movie",
+          order: '-sys.createdAt'
         })
         .then((res) => {
           this.movies = res.items;

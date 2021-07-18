@@ -37,6 +37,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "game",
+          order: '-sys.createdAt',
         })
         .then((res) => {
           this.game = res.items;
