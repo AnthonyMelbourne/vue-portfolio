@@ -3,6 +3,10 @@
     <div v-if="open" class="backdrop" @click="$emit('close')"></div>
 
     <dialog open v-if="open">
+      <button type="button" class="close" @click="$emit('close')">
+        <i class="fas fa-times"></i>
+      </button>
+
       <music-review-dialog
         v-if="content.type === 'music'"
         :article="content.article"

@@ -1,9 +1,6 @@
 <template>
   <div>
     <div>
-      <button type="button" class="close" @click="$emit('close')">
-        <i class="fas fa-times"></i>
-      </button>
       <div class="modal-heading">{{ article.fields.heading }}</div>
 
       <div class="modal-subheading">{{ article.fields.subHeading }}</div>
