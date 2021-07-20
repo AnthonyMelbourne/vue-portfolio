@@ -6,7 +6,8 @@
       <section class="left-content-inner-border">
         <!-- LEFT CONTENT FEATURED REVIEWS -->
         <!-- FEATURED GAME -->
-        <div class="featured">
+        <loading-block v-if="loadingGames" />
+        <div class="featured" v-else>
           <div class="featured-excerpt">
             <p>"{{ featuredGame.fields.description }}"</p>
           </div>
@@ -14,17 +15,18 @@
             <img
               class="featured-game-thumbnail"
               :src="featuredGame.fields.cover.fields.file.url"
-              @click="openReview(game)"
+              @click="openReview(featuredGame, 'game')"
             />
           </div>
         </div>
         <!-- FEATURED ALBUM -->
-        <div class="featured">
+        <loading-block v-if="loadingMusic" />
+        <div class="featured" v-else>
           <div class="featured-excerpt">
             <img
               class="featured-album-thumbnail"
               :src="featuredMusic.fields.cover.fields.file.url"
-              @click="openReview(music)"
+              @click="openReview(featuredMusic, 'music')"
             />
           </div>
           <div class="featured-excerpt">
@@ -32,7 +34,8 @@
           </div>
         </div>
         <!-- FEATURED MOVIE -->
-        <div class="featured">
+        <loading-block v-if="loadingMovies" />
+        <div class="featured" v-else>
           <div class="featured-excerpt">
             <p>"{{ featuredMovie.fields.description }}"</p>
           </div>
@@ -40,7 +43,7 @@
             <img
               class="featured-movie-thumbnail"
               :src="featuredMovie.fields.cover.fields.file.url"
-              @click="openReview(movie)"
+              @click="openReview(featuredMovie, 'movie')"
             />
           </div>
         </div>
@@ -51,27 +54,15 @@
       <router-link to="./music/reviews">
         <h1>Music Reviews</h1>
       </router-link>
-      <div class="right-content-outer-border">
+
+      <div
+        v-for="row in music"
+        :key="row.sys.id"
+        class="right-content-outer-border"
+      >
         <div class="review-link">
-          <button @click="openReview(music[0])">
-            {{ music[0].fields.heading }} -
-            {{ music[0].fields.subHeading }}
-          </button>
-        </div>
-      </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(music)">
-            {{ music[1].fields.heading }} -
-            {{ music[1].fields.subHeading }}
-          </button>
-        </div>
-      </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(movies)">
-            {{ music[2].fields.heading }} -
-            {{ music[2].fields.subHeading }}
+          <button @click="openReview(row, 'music')">
+            {{ row.fields.heading }} - {{ row.fields.subHeading }}
           </button>
         </div>
       </div>
@@ -79,67 +70,49 @@
       <router-link to="./movie/reviews">
         <h1>Film Reviews</h1>
       </router-link>
-      <div class="right-content-outer-border">
+     <div
+        v-for="row in movies"
+        :key="row.sys.id"
+        class="right-content-outer-border"
+      >
         <div class="review-link">
-          <button @click="openReview(movies)">
-            {{ movies[0].fields.heading }} -
-            {{ movies[0].fields.year }}
+          <button @click="openReview(row, 'movie')">
+            {{ row.fields.heading }} - {{ row.fields.year }}
           </button>
         </div>
       </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(movies)">
-            {{ movies[1].fields.heading }} -
-            {{ movies[1].fields.year }}
-          </button>
-        </div>
-      </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(movies)">
-            {{ movies[2].fields.heading }} -
-            {{ movies[2].fields.year }}
-          </button>
-        </div>
-      </div>
+    
 
       <router-link to="./game/reviews">
         <h1>Games Reviews</h1>
       </router-link>
-      <div class="right-content-outer-border">
+      <div
+        v-for="row in games"
+        :key="row.sys.id"
+        class="right-content-outer-border"
+      >
         <div class="review-link">
-          <button @click="openReview(game)">
-            {{ games[0].fields.heading }} -
-            {{ games[0].fields.subHeading }}
+          <button @click="openReview(row, 'game')">
+            {{ row.fields.heading }} -
+            {{ row.fields.subHeading }}
           </button>
         </div>
       </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(game)">
-            {{ games[1].fields.heading }} -
-            {{ games[1].fields.subHeading }}
-          </button>
-        </div>
-      </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button @click="openReview(game)">
-            {{ games[2].fields.heading }} -
-            {{ games[2].fields.subHeading }}
-          </button>
-        </div>
-      </div>
+      
     </div>
   </div>
 </template>
 
 <script>
+import LoadingBlock from "../components/LoadingBlock.vue";
+
 export default {
   name: "Home",
   data() {
     return {
+      loadingMusic: true,
+      loadingMovies: true,
+      loadingGames: true,
       featuredMusic: {},
       featuredMovie: {},
       featuredGame: {},
@@ -147,6 +120,9 @@ export default {
       movies: [],
       games: [],
     };
+  },
+  components: {
+    LoadingBlock,
   },
   methods: {
     loadMusic() {
@@ -159,7 +135,7 @@ export default {
         .then((res) => {
           this.featuredMusic = res.items.shift();
           this.music = res.items;
-          this.loading = false;
+          this.loadingMusic = false;
         })
         .catch((error) => {
           console.log(error);
@@ -175,7 +151,7 @@ export default {
         .then((res) => {
           this.featuredMovie = res.items.shift();
           this.movies = res.items;
-          this.loading = false;
+          this.loadingMovies = false;
         })
         .catch((error) => {
           console.log(error);
@@ -191,40 +167,23 @@ export default {
         .then((res) => {
           this.featuredGame = res.items.shift();
           this.games = res.items;
-          this.loading = false;
+          this.loadingGames = false;
         })
         .catch((error) => {
           console.log(error);
         });
     },
-    openReview(gameObject, musicObject, movieObject) {
+    openReview(articleObject, articleType) {
       this.$emit("openModal", {
-        type: "movie, game, music",
-        article: gameObject,
-        musicObject,
-        movieObject,
+        type: articleType,
+        article: articleObject,
       });
-    },
-    load() {
-      this.$contentful
-        .getEntries({
-          content_type: "movie, game, music",
-          order: "-sys.createdAt",
-        })
-        .then((res) => {
-          this.movies = res.items;
-          this.loading = false;
-        })
-        .catch((error) => {
-          console.log(error);
-        });
     },
   },
   mounted() {
     this.loadMusic();
     this.loadMovies();
     this.loadGames();
-    this.load();
   },
 };
 </script>
