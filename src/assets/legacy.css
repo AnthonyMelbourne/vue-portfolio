@@ -1427,253 +1427,10 @@ a:hover {
   }
 }
 
-/* ALBUM REVIEW CONTENT */
-
-.album-img-1 {
-  background-image: url(./images/music/b+w/babirusa-humanoid-b+w.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
-.album-img-1:hover {
-  background-image: url(https://f4.bcbits.com/img/a2876979559_5.jpg);
-  cursor: pointer;
-}
-.album-img-2 {
-  background-image: url(./images/music/b+w/inhibitor-abhorrence-b+w.jpg);
-  background-size: cover;
-}
-.album-img-2:hover {
-  background-image: url(https://f4.bcbits.com/img/a3320381888_10.jpg);
-}
-.album-img-3 {
-  background-image: url(./images/music/b+w/make-them-suffer-how-to-survive-a-funeral-b+w.jpg);
-  background-size: cover;
-}
-.album-img-3:hover {
-  background-image: url(https://i0.wp.com/wallofsoundau.com/wp-content/uploads/2020/06/MTS-funeral.jpg?fit=1024%2C1024&ssl=1);
-  cursor: pointer;
-}
-.album-img-4 {
-  background-image: url(./images/music/b+w/defeated-sanity-the-sanguinary-impetus-b+w.jpg);
-  background-size: cover;
-}
-.album-img-4:hover {
-  background-image: url(https://f4.bcbits.com/img/a1076321780_10.jpg);
-  cursor: pointer;
-}
-.album-img-5 {
-  background-image: url(./images/music//b+w/bleed-from-within-fractrure-b+w.jpg);
-  background-size: cover;
-}
-.album-img-5:hover {
-  background-image: url(https://i1.wp.com/www.rocksins.com/wp-content/uploads/2020/05/Bleed-From-Within-Fracture-Album-Cover.jpg?fit=800%2C800&ssl=1);
-  cursor: pointer;
-}
-.album-img-6 {
-  background-image: url(./images/music/b+w/within-destruction-yōkai-b+w.jpg);
-  background-size: cover;
-}
-.album-img-6:hover {
-  background-image: url(http://new-transcendence.com/wp-content/uploads/2020/06/Yokai.jpg);
-  cursor: pointer;
-}
-.album-img-7 {
-  background-image: url(./images/music/b+w/nf-the-search-b+w.png);
-  background-size: cover;
-}
-.album-img-7:hover {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/1/1b/NF_-_The_Search.png);
-  cursor: pointer;
-}
-.album-img-8 {
-  background-image: url(./images/music/b+w/alpha-wolf-a-quiet-place-to-die-b+w.jpg);
-  background-size: cover;
-}
-.album-img-8:hover {
-  background-image: url(https://f4.bcbits.com/img/a3622023113_10.jpg);
-  cursor: pointer;
-}
-.album-img-9 {
-  background-image: url(./images/music/b+w/logic-no-pressure-b+w.png);
-  background-size: cover;
-}
-.album-img-9:hover {
-  background-image: url(https://i.redd.it/osjj1swdiuc51.jpg);
-  cursor: pointer;
-}
-.album-img-10 {
-  background-image: url(./images/music/b+w/bring-me-the-horizon-Post-Human-Survival-Horror-b+w.jpg);
-  background-size: cover;
-}
-.album-img-10:hover {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/0/0a/Bring_Me_the_Horizon_Post_Human_Survival_Horror_Cover_Art_2020.jpg);
-  cursor: pointer;
-}
-
-/* MOVIE REVIEW CONTENT */
-
-.film-img-1 {
-  background-image: url(./images/film/b+w/bill-and-ted-b+w.jpg);
-  background-size: cover;
-  cursor: pointer;
-}
-.film-img-1:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-2 {
-  background-image: url(./images/film/b+w/guns-akimbo-b+w.jpg);
-  background-size: cover;
-}
-.film-img-2:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BNzU3ZTI1OTktNjVkNy00OWEzLWIyNzAtMWQ5YjRkZDU1ZjAxXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg);
-}
-.film-img-3 {
-  background-image: url(./images/film/b+w/jojo-rabbit-b+w.jpg);
-  background-size: cover;
-}
-.film-img-3:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-4 {
-  background-image: url(./images/film/b+w/joker-b+w.jpg);
-  background-size: cover;
-}
-.film-img-4:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-5 {
-  background-image: url(./images/film/b+w/love-and-mosters-b+w.jpg);
-  background-size: cover;
-}
-.film-img-5:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_.jpgg);
-  cursor: pointer;
-}
-.film-img-6 {
-  background-image: url(./images/film/b+w/soul-b+w.jpeg);
-  background-size: cover;
-}
-.film-img-6:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMTg1MWM3NzgtZDkwMS00M2Y5LWIwY2UtNTMyYWJlZWU2ZmMwXkEyXkFqcGdeQXVyODQ4MjU1MDk@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-7 {
-  background-image: url(./images/film/b+w/spiderman-into-the-spider-verse-b+w.jpg);
-  background-size: cover;
-}
-.film-img-7:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMjgzMDgxODAxNl5BMl5BanBnXkFtZTgwNzA4ODU0NjM@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-8 {
-  background-image: url(./images/film/b+w/the-hunt-b+w.jpg);
-  background-size: cover;
-}
-.film-img-8:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BZjg4ODIyM2QtOWZmNS00OGMzLWFmMzMtODM0MzRiM2JiNTgwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-9 {
-  background-image: url(./images/film/b+w/the-new-mutants-b+w.jpg);
-  background-size: cover;
-}
-.film-img-9:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BZDQ2NTdmNDgtMGIwMS00ODE2LTk5M2EtZGZhYzc4MWRlNTU3XkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_.jpg);
-  cursor: pointer;
-}
-.film-img-10 {
-  background-image: url(./images/film/b+w/avengers-endgam-b+w.jpeg);
-  background-size: cover;
-}
-.film-img-10:hover {
-  background-image: url(https://thumbor.forbes.com/thumbor/711x1039/https://blogs-images.forbes.com/markhughes/files/2019/04/AVENGERS-ENDGAME-poster-DOLBY-CINEMA.jpg?width=960);
-  cursor: pointer;
-}
-
-/* GAME REVIEW CONTENT */
-
-.game-img-1 {
-  background-image: url(./images/games/b+w/assassins-creed-valhalla-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-1:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMjY4MTNlNzItNmViNC00MDBiLTgwNzQtODI5OTZlOTQwM2QzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg);
-  cursor: pointer;
-}
-.game-img-2 {
-  background-image: url(./images/games/b+w/call-of-duty-cold-war-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-2:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BNThlNGM3ZmUtYjUyYy00ZTBhLWFmMTgtZmQyYmVkMmRlNjVlXkEyXkFqcGdeQXVyMTExNjQ2MTIw._V1_.jpg);
-}
-.game-img-3 {
-  background-image: url(./images/games/b+w/cod-modern-warefare-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-3:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMTc3NWY2ZTMtNTNlZC00MWM2LWI5MzYtMmU1YzY0ODk5ZjQ1XkEyXkFqcGdeQXVyODA2MTkwODk@._V1_.jpg);
-}
-.game-img-4 {
-  background-image: url(./images/games/b+w/ghost-of-tsushima-b+w.jpg);
-  background-size: cover;
-}
-.game-img-4:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMjEwYjRjZjctNWRmNy00NDA1LWE1MjYtYTlhMWIzZGNhMWYxXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg);
-}
-.game-img-5 {
-  background-image: url(./images/games/b+w/grand-theft-auto-5-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-5:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BZTI4YWM0YjItNTk4Mi00N2NkLTlkZjItOGIzNTdmZTQyOTk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg);
-}
-.game-img-6 {
-  background-image: url(./images/games/b+w/hitman-3-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-6:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMWIwZDQ4MGYtYmI1OS00MjMyLWE3MDItOWUxOTBlOTA5NDY0XkEyXkFqcGdeQXVyNzQzNDM3NTI@._V1_.jpg);
-  cursor: pointer;
-}
-.game-img-7 {
-  background-image: url(./images/games/b+w/pubg-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-7:hover {
-  background-image: url(https://www.gamedealing.com/images/playerunknown_bg.jpg);
-}
-.game-img-8 {
-  background-image: url(./images/games/b+w/red-dead-redemption-2-b+w.jpg);
-  background-size: cover;
-}
-.game-img-8:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMThiMGJkNDUtYjIxYy00ZTRhLWE5NmUtNzI4NTJlOGI4ZTMwXkEyXkFqcGdeQXVyNTk1ODMyNjA@._V1_.jpg);
-}
-.game-img-9 {
-  background-image: url(./images/games/b+w/spider-man-miles-morales-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-9:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BMTFhNWU3MDQtYzJjZi00NjlkLTlkODMtNWRiOGY3OGMxNGQ4XkEyXkFqcGdeQXVyMzIwMjMyMzc@._V1_.jpg);
-  cursor: pointer;
-}
-.game-img-10 {
-  background-image: url(./images/games/b+w/the-last-of-us-2-b+w.jpeg);
-  background-size: cover;
-}
-.game-img-10:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BODUwNWY5YjctNDZkNy00ZTY1LWEzMzItZGVkYTllOWVjOTc3XkEyXkFqcGdeQXVyNjU4NTIxNzI@._V1_.jpg);
-}
-
 /* HOME PAGE FEATURED CONTENT */
 .featured-album-thumbnail {
   background-size: cover;
   margin: 5px;
-  border: 2px black solid;
   text-align: center;
   cursor: pointer;
 }
@@ -1683,7 +1440,6 @@ a:hover {
 .featured-movie-thumbnail {
   background-size: cover;
   margin: 5px;
-  border: 2px black solid;
   text-align: center;
 }
 .featured-movie-thumbnail:hover {
@@ -1693,11 +1449,9 @@ a:hover {
   
   background-size: cover;
   margin: 5px;
-  border: 2px black solid;
   text-align: center;
 }
 .featured-game-thumbnail:hover {
-  /* background-image: url(https://m.media-amazon.com/images/M/MV5BNThlNGM3ZmUtYjUyYy00ZTBhLWFmMTgtZmQyYmVkMmRlNjVlXkEyXkFqcGdeQXVyMTExNjQ2MTIw._V1_.jpg); */
   cursor: pointer;
 }
 

@@ -53,7 +53,7 @@
       </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(music[0])">
             {{ music[0].fields.heading }} -
             {{ music[0].fields.subHeading }}
           </button>
@@ -61,7 +61,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(music)">
             {{ music[1].fields.heading }} -
             {{ music[1].fields.subHeading }}
           </button>
@@ -69,7 +69,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(movies)">
             {{ music[2].fields.heading }} -
             {{ music[2].fields.subHeading }}
           </button>
@@ -81,7 +81,7 @@
       </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(movies)">
             {{ movies[0].fields.heading }} -
             {{ movies[0].fields.year }}
           </button>
@@ -89,7 +89,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(movies)">
             {{ movies[1].fields.heading }} -
             {{ movies[1].fields.year }}
           </button>
@@ -97,7 +97,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(movies)">
             {{ movies[2].fields.heading }} -
             {{ movies[2].fields.year }}
           </button>
@@ -109,7 +109,7 @@
       </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(game)">
             {{ games[0].fields.heading }} -
             {{ games[0].fields.subHeading }}
           </button>
@@ -117,7 +117,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(game)">
             {{ games[1].fields.heading }} -
             {{ games[1].fields.subHeading }}
           </button>
@@ -125,7 +125,7 @@
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button>
+          <button @click="openReview(game)">
             {{ games[2].fields.heading }} -
             {{ games[2].fields.subHeading }}
           </button>
