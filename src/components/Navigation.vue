@@ -2,7 +2,11 @@
   <nav id="app" class="nav-parent">
     <div class="desktop-navbar-buttons">
       <ul>
-        <li class="button"><a href="../index.html">Home</a></li>
+        <li class="button">
+          <router-link to="/">
+            Home
+          </router-link>
+        </li>
         <li class="button" id="music-button">
           Music
           <nav class="dropdown-menu" id="music-1">
@@ -50,7 +54,7 @@
         <div class="mobile-menu-close">
           <i id="mobile-menu-close" class="fas fa-times fa-4x"></i>
         </div>
-        <a href="../index.html">Home</a>
+        <a href="./index.html">Home</a>
         <a href="music-index.html">Music</a>
         <a href="film-index.html">Movies</a>
         <a href="games-index.html">Games</a>

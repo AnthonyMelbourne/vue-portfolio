@@ -1671,7 +1671,6 @@ a:hover {
 
 /* HOME PAGE FEATURED CONTENT */
 .featured-album-thumbnail {
-  background-image: url(./images/music/b+w/babirusa-humanoid-b+w.jpg);
   background-size: cover;
   margin: 5px;
   border: 2px black solid;
@@ -1679,29 +1678,26 @@ a:hover {
   cursor: pointer;
 }
 .featured-album-thumbnail:hover {
-  background-image: url(https://f4.bcbits.com/img/a2876979559_5.jpg);
   cursor: pointer;
 }
 .featured-movie-thumbnail {
-  background-image: url(./images/film/b+w/bill-and-ted-b+w.jpg);
   background-size: cover;
   margin: 5px;
   border: 2px black solid;
   text-align: center;
 }
 .featured-movie-thumbnail:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg);
   cursor: pointer;
 }
 .featured-game-thumbnail {
-  background-image: url(./images/games/b+w/call-of-duty-cold-war-b+w.jpeg);
+  
   background-size: cover;
   margin: 5px;
   border: 2px black solid;
   text-align: center;
 }
 .featured-game-thumbnail:hover {
-  background-image: url(https://m.media-amazon.com/images/M/MV5BNThlNGM3ZmUtYjUyYy00ZTBhLWFmMTgtZmQyYmVkMmRlNjVlXkEyXkFqcGdeQXVyMTExNjQ2MTIw._V1_.jpg);
+  /* background-image: url(https://m.media-amazon.com/images/M/MV5BNThlNGM3ZmUtYjUyYy00ZTBhLWFmMTgtZmQyYmVkMmRlNjVlXkEyXkFqcGdeQXVyMTExNjQ2MTIw._V1_.jpg); */
   cursor: pointer;
 }
 

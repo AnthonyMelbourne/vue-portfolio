@@ -1,0 +1,1080 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 10,
+  "skip": 0,
+  "limit": 4,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u8q2k91d0khy"
+          }
+        },
+        "id": "5qEvJyLOclfvMHKuE1qSfX",
+        "type": "Entry",
+        "createdAt": "2021-07-03T02:54:40.141Z",
+        "updatedAt": "2021-07-03T02:54:40.141Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "movie"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "heading": "The Hunt",
+        "subHeading": "Directed by Craig Zobel",
+        "author": "By Adrian Horton",
+        "year": 2020,
+        "desctription": "Gory Trump-baiting satire is more hype than horror : The delayed liberal elites vs rural ‘deplorables’ thriller isn’t quite the political hot potato it’s being sold as, offering boilerplate B-movie schlock instead.\n",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "How do you solve a problem like reviewing The Hunt? The schlocky horror film would ordinarily garner little attention beyond genre fans and a handful of critics. But after months of buildup touting it as a satire about liberal elites hunting rural Trump voters, the film now comes with some baggage.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The Hunt, directed by Craig Zobel and written by Nick Cuse and Damon Lindelof, appears at first glance to purposely provoke – one character references “the rat-fucker-in-chief”, another talks of “slaughtering a dozen deplorables” (a reference to Hillary Clinton’s “basket of deplorables” remark). The context of this line becaomes clear when the plot gets going: 12 people wake up, gagged and confused, in the woods while a mysterious box sits nearby, filled with weapons. (The script is loosely inspired by Richard Connell’s 1924 short story The Most Dangerous Game, about a rich man who hunts other humans for sport.) It doesn’t take long for every variety of death – shooting, exploding, stabbing – to descend from a hidden and prepared upper class.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The Hunt promoThe violence is gratuitous if cartoonish – one woman is shot at, impaled and then blown in half. But The Hunt does play with who to root for and who, if anyone, you can trust. Deaths are often swift and occasionally surprising; the characters are one-line stereotypes – rural woman from Wyoming, white wannabe rapper from Florida, Staten Islander who loves guns (Ike Barinholtz), Ivanka fan in leggings (Emma Roberts) – and are picked off one by one. The only “deplorable” with a clue how to fight back is Crystal (Betty Gilpin), a mysterious woman with an even more mysterious knowledge of martial arts.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The Hunt’s release in the middle of coronavirus fears in the US is another unlucky development in the film’s rollout. It was originally slated for release last September, but mass shootings in El Paso, Texas, and Dayton, Ohio, prompted a postponement. Soon after, details about the film emerged and rightwing anger followed, even from Trump himself.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "In February, it returned with an updated marketing strategy riffing on the controversy. A more spoiler-heavy trailer meant to frame the concept as a joke featured the tagline: “The most talked about movie of the year is one that no one’s actually seen.” The film-makers have claimed they didn’t anticipate any controversy from a film pitting “liberal elites” against “deplorables” in a violent human hunt, which seems like lobbing a mock grenade into a minefield and getting upset when people scatter.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Nevertheless, they have something of a point: if you can set aside the noise, you’re left with a boilerplate B-movie that doesn’t say nearly as much as it thinks it does. The jokes are the words of stereotypes spoken with a straight face, an opportunity to have a character say “climate change is real”, poke fun at white liberal NPR listeners who debate using “black” v “African-American” (“White people – we’re the worst,” says one elite in reference to everything except his killing), and imbue “did you read that article?” with more menace.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Which isn’t to say it completely lacks redeeming qualities, namely Gilpin. It’s good fun to watch her slink into a bunker and spit, “Bye, bitch,” or drawl through a rendition of The Tortoise and the Hare that ends in more violence. She bounces back from various injury in a matter of seconds and has a genuinely entertaining one-on-one fight with Hilary Swank, as chief elite villain.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The rest of the satire, however, struggles to translate. In creating characters that embody the worst stereotypes of America’s political poles, and making America’s divide as literal and violent as possible, The Hunt feigns a viewpoint rather than actually putting one forward. It takes aim at everyone, redeeming no one. Which feels circular, and queasy, and takes us right back where we started: some empty talk about a divided nation, and a film not worthy of this much conversation.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "cover": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "30RRDvw3X4DD0AE6UFR1mx"
+          }
+        },
+        "media": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4FvVTo4ij3bJMNHiiR90Uo"
+            }
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/embed/xoWmwsPU5cQ"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u8q2k91d0khy"
+          }
+        },
+        "id": "1gT1EtZtSzvijcIe2FCtBB",
+        "type": "Entry",
+        "createdAt": "2021-07-03T02:50:34.151Z",
+        "updatedAt": "2021-07-03T02:50:34.151Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "movie"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "heading": "Joker",
+        "subHeading": "Directed by Todd Phillips",
+        "author": "by Peter Bradshaw",
+        "year": 2019,
+        "desctription": "The malign clown … Joaquin Phoenix in Joker – the most disappointing film of the year.\n\nWhy so serious? Todd Phillips’ solemn but shallow supervillain origins movie has a strong performance by Joaquin Phoenix but is weighed down by realist detail and tedious material.",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The year’s biggest disappointment has arrived. It emerges with weirdly grownup self-importance from the tulip fever of festival awards season as an upscale spin on an established pop culture brand. Last year we had Luca Guadagnino’s solemn version of Suspiria, and now it’s Joker, from director and co-writer Todd Phillips: a new origin myth for Batman’s most famous supervillain opponent.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Joaquin Phoenix plays Arthur Fleck, a pathetic loser and loner in Gotham City, some time in the early 1980s. Arthur is a former inpatient at a psychiatric facility but is now allowed to live with his elderly mother, Penny (Frances Conroy), in her scuzzy apartment. Poor Arthur has a neurological condition that means he is liable to break into screeching laughter at inopportune moments. He has a crush on his single-mom neighbour Sophie (Zazie Beetz) and pines to be a comedian, hero-worshipping cheesy TV host Murray Franklin (Robert De Niro). But he can only get a job as a clown in grinning makeup and floppy-toed shoes twirling an advertising banner outside a store, where he is bullied and beaten up by young thugs passing by. One day, after the humiliation and despair become too much to bear, Arthur gets hold of a gun and discovers that his talent is not for comedy but violence.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Phillips has already directed a film featuring a brilliant unfunny-funny figure with learning difficulties: Alan in The Hangover, played by Zach Galifianakis, that strange dysfunctional figure who mispronounces the noun “retard”. I wonder what Joker would be like with Galifianakis in the lead. Well, the casting of Phoenix indicates more clearly how sexy Joker is supposed to be.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Joker promoThere is great production design by Mark Friedberg, some tremendous period cityscape images by cinematographer Lawrence Sher, and a strong performance by Phoenix, though not his best – it is not as good as his appearance in Paul Thomas Anderson’s The Master. The film holds your attention up until Joker’s terrible revenge bloodbath on the subway early on, perhaps intended to echo the notorious Bernhard Goetz shooting of 1984 – although Phillips prudently makes it a non-racist attack. After this, the film loses your interest, with tedious and forced material about Joker’s supposed triggering of an anti-capitalist, anti-rich movement with protesters dressing as clowns. Joker’s own criminal and serial-killer career bafflingly fizzles.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The film makes reference to movies from around the drama’s era, such as the Death Wish films, The French Connection and maybe even Star Wars, but it’s more obviously a laborious and pointless homage to the Scorsese/De Niro classic The King of Comedy with a bit of Taxi Driver, which means that at various moments it’s a bit like The King of Comedy and Taxi Driver, only not as good.\nThe connection is signalled by the casting of De Niro himself, but it is nonetheless unearned and pedantic, especially compared to Lynne Ramsey’s You Were Never Really Here, also starring Phoenix as a loner living with his mom, which managed the connection more adroitly.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The whole idea of the malign clown should be very relevant. We live in an era of trolling, incels and internet bullying. (The grisly Milo Yiannopoulos described himself as a “supervillain” on his now cancelled Twitter bio.) There’s nothing wrong and everything right with engaging with all of this – and the “copycat” row is a red herring. But, perhaps because online aggression is difficult to dramatise, Phillips understandably wanted his film to be set in a pre-web age. Yet he cheats an anachronistic quasi-YouTube moment into his story when a video of Arthur’s catastrophic attempt at standup comedy somehow emerges. (I wonder if there wasn’t an earlier, contemporary-set draft of the script.) ￼",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This Joker’s genesis is determinedly mature and uncartoony, compared to, say, Jack Nicholson’s low-level crook Jack Napier falling into a chemical vat in Tim Burton’s Batman, turning him into the Joker with white skin, green hair and a rictus grin. (The look of DC’s Joker was originally inspired by Conrad Veidt in the 1928 silent classic The Man Who Laughs, a man whose face was disfigured into a grin by his father’s political enemies.)",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "There is no reason why Phoenix’s elaborately backstoried Joker shouldn’t be as powerful as Heath Ledger’s mysterious, motiveless, originless Joker in The Dark Knight. But at some stage the comic-book world of supervillaindom has to be entered, and Ledger was more powerful because he wasn’t weighed down with all this realist detail and overblown ironic noir grandeur, and he wasn’t forced to carry an entire story on his own. This Joker has just one act in him: the first act. The film somehow manages to be desperately serious and very shallow.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "cover": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "6B0FncJk5XxyBOWGSAtjy5"
+          }
+        },
+        "media": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "67v8naF2LvzpP2Zz3eDUlZ"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7HzLPcXqJxd7WrTYsTxin4"
+            }
+          },
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2e5bVzDXsBO9l0NvhAdPo"
+            }
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/embed/zAGVQLHvwOY"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u8q2k91d0khy"
+          }
+        },
+        "id": "2zZbiMPJ5xfcDMSrTNAAya",
+        "type": "Entry",
+        "createdAt": "2021-07-03T02:03:33.746Z",
+        "updatedAt": "2021-07-03T02:03:33.746Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "movie"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "heading": "Spider-Man: Into the Spider-Verse",
+        "subHeading": "Directed by Bob Persichetti, Peter Ramsey and Rodney Rothman",
+        "author": "by Bryan Bishop@bcbishop",
+        "year": 2019,
+        "desctription": "“Spider-Man: Into the Spider-Verse is dazzling, hilarious, and unique”.\n\nIt’s the beginning of its own interconnected animated universe.",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Back in 2013, Sony Pictures Entertainment announced plans for its own elaborate, interconnected universe based around Spider-Man. Among the planned titles: Amazing Spider-Man 3 (which never happened), Venom (which arguably shouldn’t have happened), and The Sinister Six (which hasn’t happened yet, though writer-director Drew Goddard would still love to tackle it). Instead, Sony went a different way, partnering with Marvel two years later to make Spider-Man part of the Marvel Cinematic Universe, leading to Tom Holland’s portrayal of Peter Parker in Spider-Man: Homecomingand other MCU films.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "It was a concession that perhaps Marvel Studios knew how to best handle the marquee version of the character. But in spite of Spider-Man’s successful MCU integration, Sony continued to work on many of its expanded universe ideas. The most intriguing of the bunch was Spider-Man: Into the Spider-Verse, an animated film meant not only to step away from the world of live-action superheroes, but to put the spotlight on Miles Morales, the character writer Brian Michael Bendis created in 2011 to take over the mantle of Spider-Man after Peter Parker was killed. With the project being creatively shepherded by Phil Lord and Chris Miller, the duo behind The Lego Movie and the 21 Jump Street films, the project had the potential to offer a fresh, radically different take on the character that would actually warrant a standalone film in a sea of interconnected franchise titles.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Spider-Man: Into the Spider-Verse promoThe finished film is all those things and more. Spider-Man: Into the Spider-Verse is a raucous, smart, self-referential adventure. The comics-inspired visuals are stunning, and the emotional coming-of-age story is relevant and inspiring, even as it acknowledges the many Spider-Man movies that have come before it. Sony is clearly looking for a way to launch its own distinct take on Spider-Man that can stand up to the live-action MCU version, and that franchise now has its first instalment.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Unpacking the storyline in Spider-Man: Into the Spider-Verse is a bit tricky because the film is so fast-paced and filled with so many meta-references that it becomes a bit of an interconnected puzzle. It starts off with Peter Parker (Chris Pine) trying to dismantle a massive supercollider built by the Kingpin (Liev Schreiber). Spider-Man is killed in the battle, leading all of New York to mourn the loss of their hometown superhero. Then the film shifts to teenager Miles Morales (voiced by Shameik Moore), whose artistic inclinations don’t necessarily please his police officer father (Brian Tyree Henry). One night, Miles’ uncle Aaron (Mahershala Ali from Moonlight and the recent Green Book) takes him to a hidden tunnel in the subway system to spray-paint a mural, and Miles is bitten by a mysterious spider. Soon, he’s developing Spider-Man-esque powers.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "That’s just the beginning of a story that pulls different iterations of Spider-Man from alternative universes into Miles’ own. A flailing, middle-aged Peter Parker (Jake Johnson), the black-and-white Spider-Man Noir (Nicolas Cage), and Spider-Gwen (Hailee Steinfeld) are just a few examples of the larger Spider-Man metaverse that Miles learns exists. Soon, they join forces to stop Kingpin so Miles can harness his emerging powers, and so the other characters can use the machine to jump back to their own dimensions before it’s too late.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "For a film with such a mind-bending premise, Into the Spider-Verse is remarkably efficient in the way it sets up the various characters and the world’s stakes, largely by relying on the audience’s knowledge of comic book movies and these characters. An opening montage, for example, tells the backstory of the soon-to-be-deceased Peter Parker, which essentially establishes him as the Tobey Maguire iteration of the character from the Sam Raimi film trilogy. The upside-down kiss with Mary Jane from Raimi’s 2002 original, the train rescue from Spider-Man 2, and the regrettable Spider-Man 3 dance sequence are all referenced, and when he dies, it serves as a clean break from all other iterations of the character.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "The knowing meta-humor present in that opening montage never relents. The script from Lord and co-director Rodney Rothman is filled with the kind of irreverent takes on pop culture and movie tropes that pepper Lord and Miller’s own films. And with each of the different multiverse characters embodying their own genres, there are plenty of different gags to play with. Cage’s Spider-Man Noir is a parody of goofy film noir clichés. The storyline of the anime-influenced Peni Parker is remarkably earnest, yet winking in the way it utilizes that particular animation style. The talking pig Spider-Ham (yes, a real Marvel character, voiced by John Mulaney) serves as broad comic relief, with the sheer absurdity of the character allowing the others — as heightened and bizarre as they may be in their own right — to feel relatively grounded by comparison.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "That balance is essential because while this is an animated film, Miles Morales is one of the most relatable, vulnerable lead characters to appear in a Spider-Man movie. His desire to establish his own identity separate from his father’s, his awkward teenage clumsiness when he meets someone he likes in school, and his frustration that he can’t easily master his newfound skills with ease all create a storyline that echoes the struggles of any teenager battling to discover and establish their identity. These are themes present in most Spider-Man origin stories, but setting them against the backdrop of the multiverse — which allows Miles to learn that there are multiple interpretations of what he can be as Spider-Man, all of them valid — brings the point home further.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "It also underscores the importance of this film choosing to focus on Morales in the first place. In movies, the Spider-Man franchise has for far too long focused on the same character doing the same things, often in the exact same way, no matter what strides the comic made in terms of diversity and representation. Into the Spider-Verse shows what a wasted opportunity that has been. In this film, Spider-Man isn’t one particular person; it’s an idea accessible to anyone, no matter where they come from or what they look like. And it’s almost certainly no accident that the older multiverse Peter Parker who Miles teams up with — an out-of-shape, middle-aged white dude who’s totally screwed up his own life, in spite of all the built-in advantages of being a superhero — ends up learning quite a bit from Morales about how to repair his own life and respect other people.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Along with the story insights and laughs, however, Spider-Man: Into the Spider-Verse is undeniably a visual powerhouse, with a style unlike any previous comics adaptation. The film pulls both from traditional 3D computer animation and comic book aesthetics, mashing them up into a dazzling, kinetic style. In one moment, the film lays out multiple panels on the screen. In another, it uses written captions to mirror Miles’ internal monologue. In yet another, it deploys familiar written sound effects to match the action. It allows the directing team — Rothman, Bob Persichetti, and Peter Ramsey — to litter every frame with as many flourishes and blink-and-miss-it gags as possible. (My personal favorite is when the word “Bagel!” is used as a sound effect. Trust me on this one).",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Sometimes the film does reach visual overload. In the final act, particularly, so much is happening on-screen that the movie’s style seems to undercut the narrative, turning everything into a blur of shape, color, and movement. But for the most part, the highly experimental style works extraordinarily well. It’s a testament to Sony that the studio was willing to let the filmmakers go so far with the visual treatment, and it becomes one more element that distinguishes Spider-Verse as something completely distinct from other Spider-Man movies or even other animated films.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "That last aspect — the fact that it feels honestly, truly unique — is one of the most invigorating aspects of Into the Spider-Verse. Superhero movies clutter the cinematic landscape these days, and with rare exceptions like Thor: Ragnarok and Black Panther they often look, sound, and act alike. They’ve become more consumer-friendly products than storytelling endeavors, with specific moments and stylistic approaches that are carefully honed to create films with the greatest possible chance of success. That doesn’t mean they’re all good (as many of Sony’s Spider-Man releases prove), but it does mean that they’re safe and often extraordinarily similar.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Spider-Man: Into the Spider-Verse is incredibly exciting because it eschews all of that. It’s innovative, irreverent, and dynamic. It’s hilarious but exceptionally earnest, with a lead character worth caring about. It’s the kind of cinematic ride that invites more franchise installments — not just to learn more about the many, many characters it introduces and worlds it hints at, but just to see how Miles Morales’ Spider-Man will grow and change.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "If Sony really wants to find a way to separate itself from Marvel, DC, and every other comic book adaptation out there, it wouldn’t be a bad idea to jettison its upcoming live-action Spider-Man spinoffs and just work on expanding the Miles Morales Spider-Verse. The framework is already there, as are a multitude of new characters embodying different takes and new points of view. That’s no doubt why the studio has already quietly started development on a sequel, as well as a Spider-Women movie that will focus on Gwen Stacey and other female heroes. There have been a lot of Spider-Man movies over the last 16 years, but Spider-Man: Into the Spider-Verse is unique in a way none of the others can match.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "cover": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "20wZ3NF0tC3SV01N5CIgY4"
+          }
+        },
+        "media": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4tbgNzChKgElzpP3QwMXsG"
+            }
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/embed/g4Hbz2jLxvQ"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u8q2k91d0khy"
+          }
+        },
+        "id": "4vLMDeEeHH1PV2nB1AqHsp",
+        "type": "Entry",
+        "createdAt": "2021-07-03T01:59:46.065Z",
+        "updatedAt": "2021-07-03T01:59:46.065Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "movie"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "heading": "Soul",
+        "subHeading": "Directed by Pete Docter and Kemp Powers",
+        "author": "by Peter Debruge",
+        "year": 2020,
+        "desctription": "‘Soul’: From the Minds Behind ‘Inside Out’ Comes an Even Deeper Look at What Makes People Tick.\nPixar gives audiences a fresh way to think about the dimension that defines their personality, while broadening its cultural horizons to feature the studio's first predominantly Black cast.",
+        "body": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "‘Soul’: From the Minds Behind ‘Inside Out’ Comes an Even Deeper Look at What Makes People Tick.\nPixar gives audiences a fresh way to think about the dimension that defines their personality, while broadening its cultural horizons to feature the studio's first predominantly Black cast.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "cover": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "6uSTLzZZ5eAUoU1Y2ILUqD"
+          }
+        },
+        "media": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5T0hw3dIzSZruHHjRug9pT"
+            }
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/embed/xOsLIiBStEs"
+      }
+    }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "20wZ3NF0tC3SV01N5CIgY4",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:02:42.148Z",
+          "updatedAt": "2021-07-03T02:02:42.148Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Spider-Man: Into the Spider-Verse Poster",
+          "description": "Spider-Man: Into the Spider-Verse Poster",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/20wZ3NF0tC3SV01N5CIgY4/05b5aa47e624a4ab21d3901539fa1ac6/MV5BMjgzMDgxODAxNl5BMl5BanBnXkFtZTgwNzA4ODU0NjM_._V1_.jpg",
+            "details": {
+              "size": 819695,
+              "image": {
+                "width": 1381,
+                "height": 2048
+              }
+            },
+            "fileName": "MV5BMjgzMDgxODAxNl5BMl5BanBnXkFtZTgwNzA4ODU0NjM@._V1_.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "2e5bVzDXsBO9l0NvhAdPo",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:50:29.649Z",
+          "updatedAt": "2021-07-03T02:50:29.649Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "joker-promo3",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/2e5bVzDXsBO9l0NvhAdPo/d7ca41f56808a00835344066f259817f/joker-promo3.jpg",
+            "details": {
+              "size": 62249,
+              "image": {
+                "width": 968,
+                "height": 645
+              }
+            },
+            "fileName": "joker-promo3.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "30RRDvw3X4DD0AE6UFR1mx",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:53:19.409Z",
+          "updatedAt": "2021-07-03T02:53:19.409Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "The Hunt Poster",
+          "description": "The Hunt Poster",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/30RRDvw3X4DD0AE6UFR1mx/ca798df346867576f1df5c0e5ee14dcf/MV5BZjg4ODIyM2QtOWZmNS00OGMzLWFmMzMtODM0MzRiM2JiNTgwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+            "details": {
+              "size": 228554,
+              "image": {
+                "width": 543,
+                "height": 800
+              }
+            },
+            "fileName": "MV5BZjg4ODIyM2QtOWZmNS00OGMzLWFmMzMtODM0MzRiM2JiNTgwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "4FvVTo4ij3bJMNHiiR90Uo",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:54:11.304Z",
+          "updatedAt": "2021-07-03T02:54:11.304Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "the-hunt-promo1",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/4FvVTo4ij3bJMNHiiR90Uo/884c453a5d3b2da6b33b58837bf701da/the-hunt-promo1.jpg",
+            "details": {
+              "size": 86958,
+              "image": {
+                "width": 1024,
+                "height": 768
+              }
+            },
+            "fileName": "the-hunt-promo1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "4tbgNzChKgElzpP3QwMXsG",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:03:27.275Z",
+          "updatedAt": "2021-07-03T02:03:27.275Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "spider-man-spider-verse-promo1",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/4tbgNzChKgElzpP3QwMXsG/516156ca2bf3da327aacdf870326ed25/spider-man-spider-verse-promo1.jpeg",
+            "details": {
+              "size": 128526,
+              "image": {
+                "width": 1280,
+                "height": 721
+              }
+            },
+            "fileName": "spider-man-spider-verse-promo1.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "5T0hw3dIzSZruHHjRug9pT",
+          "type": "Asset",
+          "createdAt": "2021-07-03T01:59:15.978Z",
+          "updatedAt": "2021-07-03T01:59:15.978Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "soul-promo1",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/5T0hw3dIzSZruHHjRug9pT/ae61bcc482f4486d270749b4e8c8bd63/soul-promo1.jpg",
+            "details": {
+              "size": 86218,
+              "image": {
+                "width": 1040,
+                "height": 585
+              }
+            },
+            "fileName": "soul-promo1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "67v8naF2LvzpP2Zz3eDUlZ",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:50:11.442Z",
+          "updatedAt": "2021-07-03T02:50:11.442Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "joker-promo1",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/67v8naF2LvzpP2Zz3eDUlZ/5a191aa01f3d6c7a54c8ca08603de5d9/joker-promo1.jpg",
+            "details": {
+              "size": 278903,
+              "image": {
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            "fileName": "joker-promo1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "6B0FncJk5XxyBOWGSAtjy5",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:49:16.674Z",
+          "updatedAt": "2021-07-03T02:49:16.674Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Joker Poster",
+          "description": "Joker Poster",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/6B0FncJk5XxyBOWGSAtjy5/02258a1bedfc6663a5434ee773586ee6/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ__._V1_.jpg",
+            "details": {
+              "size": 1691185,
+              "image": {
+                "width": 2764,
+                "height": 4096
+              }
+            },
+            "fileName": "MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "6uSTLzZZ5eAUoU1Y2ILUqD",
+          "type": "Asset",
+          "createdAt": "2021-07-03T01:58:47.836Z",
+          "updatedAt": "2021-07-03T01:58:47.836Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Soul Poster",
+          "description": "Soul Poster",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/6uSTLzZZ5eAUoU1Y2ILUqD/dbc6244021f0ff7c3a52a6126cd9e66b/MV5BMTg1MWM3NzgtZDkwMS00M2Y5LWIwY2UtNTMyYWJlZWU2ZmMwXkEyXkFqcGdeQXVyODQ4MjU1MDk_._V1_.jpg",
+            "details": {
+              "size": 156173,
+              "image": {
+                "width": 950,
+                "height": 1420
+              }
+            },
+            "fileName": "MV5BMTg1MWM3NzgtZDkwMS00M2Y5LWIwY2UtNTMyYWJlZWU2ZmMwXkEyXkFqcGdeQXVyODQ4MjU1MDk@._V1_.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u8q2k91d0khy"
+            }
+          },
+          "id": "7HzLPcXqJxd7WrTYsTxin4",
+          "type": "Asset",
+          "createdAt": "2021-07-03T02:50:23.538Z",
+          "updatedAt": "2021-07-03T02:50:23.538Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "joker-promo2",
+          "file": {
+            "url": "//images.ctfassets.net/u8q2k91d0khy/7HzLPcXqJxd7WrTYsTxin4/1513d53f21f791b4c2fc0910fd4cef3b/joker-promo2.jpg",
+            "details": {
+              "size": 104664,
+              "image": {
+                "width": 1200,
+                "height": 600
+              }
+            },
+            "fileName": "joker-promo2.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    ]
+  }
+}

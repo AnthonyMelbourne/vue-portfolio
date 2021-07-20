@@ -4,44 +4,45 @@
       <h1>Featured Reviews</h1>
       <li>(click image to open)</li>
       <section class="left-content-inner-border">
+        <!-- LEFT CONTENT FEATURED REVIEWS -->
+        <!-- FEATURED GAME -->
         <div class="featured">
           <div class="featured-excerpt">
-            <p>
-              "{{ featuredGame.fields.description }}"
-            </p>
+            <p>"{{ featuredGame.fields.description }}"</p>
           </div>
-          <button
-            class="modal-open featured-game-thumbnail thumbnmail"
-            data-modal="featured-game1"
-          ></button>
-        </div>
-
-        <div class="featured">
-          <button
-            class="modal-open featured-album-thumbnail thumbnmail"
-            data-modal="featured-album1"
-          ></button>
           <div class="featured-excerpt">
-            <p>
-              "This is a phenomenal debut album – ultimately a bold choice to do
-              a concept record for your first, but given the experience in song
-              writing that the various members possess, it’s not surprising that
-              they pulled it off in spades."
-            </p>
+            <img
+              class="featured-game-thumbnail"
+              :src="featuredGame.fields.cover.fields.file.url"
+              @click="openReview(game)"
+            />
           </div>
         </div>
-
+        <!-- FEATURED ALBUM -->
         <div class="featured">
           <div class="featured-excerpt">
-            <p>
-              "It’s amiably amusing, and Bill and Ted’s Peter Pannish inability
-              to accept the ageing process is enjoyably surreal."
-            </p>
+            <img
+              class="featured-album-thumbnail"
+              :src="featuredMusic.fields.cover.fields.file.url"
+              @click="openReview(music)"
+            />
           </div>
-          <button
-            class="modal-open featured-movie-thumbnail thumbnmail"
-            data-modal="featured-movie1"
-          ></button>
+          <div class="featured-excerpt">
+            <p>"{{ featuredMusic.fields.description }}"</p>
+          </div>
+        </div>
+        <!-- FEATURED MOVIE -->
+        <div class="featured">
+          <div class="featured-excerpt">
+            <p>"{{ featuredMovie.fields.description }}"</p>
+          </div>
+          <div class="featured-excerpt">
+            <img
+              class="featured-movie-thumbnail"
+              :src="featuredMovie.fields.cover.fields.file.url"
+              @click="openReview(movie)"
+            />
+          </div>
         </div>
       </section>
     </div>
@@ -52,9 +53,10 @@
       </a>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-album2">
-            DEFEATED SANITY - The Sanguinary Impetus
+          <button>
+            NOT DEFEATED SANITY - The Sanguinary Impetus
           </button>
+          <!-- <h1>{{ music.value.fields.heading }}</h1> -->
         </div>
       </div>
       <div class="right-content-outer-border">
@@ -136,14 +138,14 @@ export default {
       music: [],
       movies: [],
       games: [],
-    }
+    };
   },
   methods: {
     loadMusic() {
       this.$contentful
         .getEntries({
           content_type: "music",
-          order: '-sys.createdAt',
+          order: "-sys.createdAt",
           limit: 4,
         })
         .then((res) => {
@@ -159,7 +161,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "movie",
-          order: '-sys.createdAt',
+          order: "-sys.createdAt",
           limit: 4,
         })
         .then((res) => {
@@ -175,7 +177,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "game",
-          order: '-sys.createdAt',
+          order: "-sys.createdAt",
           limit: 4,
         })
         .then((res) => {
@@ -187,12 +189,35 @@ export default {
           console.log(error);
         });
     },
+    openReview(gameObject, musicObject, movieObject) {
+      this.$emit("openModal", {
+        type: "movie, game, music",
+        article: gameObject,
+        musicObject,
+        movieObject,
+      });
+    },
+    load() {
+      this.$contentful
+        .getEntries({
+          content_type: "movie",
+          order: "-sys.createdAt",
+        })
+        .then((res) => {
+          this.movies = res.items;
+          this.loading = false;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
   },
   mounted() {
     this.loadMusic();
     this.loadMovies();
     this.loadGames();
-  }
+    this.load();
+  },
 };
 </script>
 
