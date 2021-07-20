@@ -26,7 +26,7 @@
             <ul class="menu-item-list">
               <li><i class="fas fa-film"></i></li>
               <li>
-                <router-link to="/movies/reviews">Reviews</router-link>
+                <router-link to="/movie/reviews">Reviews</router-link>
               </li>
               <li><a href="UNDER-CONSTRUCTION.html">Top 10's</a></li>
             </ul>

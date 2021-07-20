@@ -48,78 +48,86 @@
     </div>
 
     <div class="right-content">
-      <a href="./HTML/music-reviews.html">
+      <router-link to="./music/reviews">
         <h1>Music Reviews</h1>
-      </a>
+      </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
           <button>
-            NOT DEFEATED SANITY - The Sanguinary Impetus
-          </button>
-          <!-- <h1>{{ music.value.fields.heading }}</h1> -->
-        </div>
-      </div>
-      <div class="right-content-outer-border">
-        <div class="review-link">
-          <button class="modal-open " data-modal="featured-album3">
-            MAKE THEM SUFFER - How To Survive A Funeral
+            {{ music[0].fields.heading }} -
+            {{ music[0].fields.subHeading }}
           </button>
         </div>
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-album4">
-            BLEED FROM WITHIN - Fracture
+          <button>
+            {{ music[1].fields.heading }} -
+            {{ music[1].fields.subHeading }}
+          </button>
+        </div>
+      </div>
+      <div class="right-content-outer-border">
+        <div class="review-link">
+          <button>
+            {{ music[2].fields.heading }} -
+            {{ music[2].fields.subHeading }}
           </button>
         </div>
       </div>
 
-      <a href="./HTML/film-reviews.html">
+      <router-link to="./movie/reviews">
         <h1>Film Reviews</h1>
-      </a>
+      </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-movie2">
-            Love and Monsters (2020)
+          <button>
+            {{ movies[0].fields.heading }} -
+            {{ movies[0].fields.year }}
           </button>
         </div>
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-movie3">
-            The Hunt (2020)
+          <button>
+            {{ movies[1].fields.heading }} -
+            {{ movies[1].fields.year }}
           </button>
         </div>
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-movie4">
-            The New Mutants (2020)
+          <button>
+            {{ movies[2].fields.heading }} -
+            {{ movies[2].fields.year }}
           </button>
         </div>
       </div>
 
-      <a href="./HTML/game-reviews.html">
-        <h1>Game Reviews</h1>
-      </a>
+      <router-link to="./game/reviews">
+        <h1>Games Reviews</h1>
+      </router-link>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-game2">
-            Call Of : Modern Warfare
+          <button>
+            {{ games[0].fields.heading }} -
+            {{ games[0].fields.subHeading }}
           </button>
         </div>
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-game3">
-            Red Dead Redemption 2
+          <button>
+            {{ games[1].fields.heading }} -
+            {{ games[1].fields.subHeading }}
           </button>
         </div>
       </div>
       <div class="right-content-outer-border">
         <div class="review-link">
-          <button class="modal-open " data-modal="featured-game4">
-            Player Unknown's : Battlegrounds
+          <button>
+            {{ games[2].fields.heading }} -
+            {{ games[2].fields.subHeading }}
           </button>
         </div>
       </div>
@@ -200,7 +208,7 @@ export default {
     load() {
       this.$contentful
         .getEntries({
-          content_type: "movie",
+          content_type: "movie, game, music",
           order: "-sys.createdAt",
         })
         .then((res) => {
