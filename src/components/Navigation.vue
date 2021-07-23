@@ -50,31 +50,56 @@
     </div>
 
     <nav>
-      <div id="mobileMenu" class="mobile-menu">
-        <div class="mobile-menu-close">
-          <i id="mobile-menu-close" class="fas fa-times fa-4x"></i>
-        </div>
-        <a href="./index.html">Home</a>
-        <a href="music-index.html">Music</a>
-        <a href="film-index.html">Movies</a>
-        <a href="games-index.html">Games</a>
-        <a href="UNDER-CONSTRUCTION.html">Store</a>
+      <div id="mobile-menu">
+        <i
+          @click="mobileMenuIsVisible"
+          class="fas fa-bars fa-4x"
+          id="mobile-menu-open"
+        ></i>
       </div>
 
-      <div id="mobile-menu">
-        <i class="fas fa-bars fa-4x" id="mobile-menu-open"></i>
-      </div>
+      <mobile-menu
+        @toggle-menu="menuActive = !menuActive"
+        :active="menuActive"
+      ></mobile-menu>
+
+      <!-- <mobile-menu
+      :class="mobile - menu"
+      :open="mobileMenuIsVisible"
+      :content="mobileMenuContent"
+      @close="mobileMenuIsVisible = false"
+    /> -->
     </nav>
   </nav>
 </template>
 
 <script>
+import MobileMenu from "../components/MobileMenu.vue";
+
 export default {
+  data() {
+    return {
+      mobileMenuIsVisible: false,
+      mobileMenuContent: {},
+    };
+  },
   name: "Navigation",
+  compnents: {
+    MobileMenu,
+  },
+  methods: {
+    openMobileMenu(data) {
+      this.mobileMenuContent = data;
+      this.mobileMenuIsVisible = true;
+    },
+    closeMobileMenu() {
+      this.mobileMenuIsVisible = false;
+    },
+  },
 };
 </script>
 
-<style>
+<style scoped>
 .desktop-navbar-buttons .button:hover .dropdown-menu {
   display: block;
 }
@@ -84,6 +109,12 @@ export default {
   z-index: 1;
 }
 nav {
-  z-index: 1;
+  z-index: 3;
+}
+
+@media (max-width: 599px) {
+  .desktop-navbar-buttons {
+    display: none;
+  }
 }
 </style>

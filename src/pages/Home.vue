@@ -1,19 +1,21 @@
 <template>
   <div class="main-content">
     <div class="left-content">
-      <h1>Featured Reviews</h1>
-      <li>(click image to open)</li>
+      <div class="left-content-heading">Featured Reviews</div>
+      <div class="left-content-subheading">(click image to open)</div>
       <section class="left-content-inner-border">
         <!-- LEFT CONTENT FEATURED REVIEWS -->
         <!-- FEATURED GAME -->
         <loading-block v-if="loadingGames" />
         <div class="featured" v-else>
           <div class="featured-excerpt">
-            <p>"{{ featuredGame.fields.description }}"</p>
+            <p class="featured-description">
+              "{{ featuredGame.fields.description }}"
+            </p>
           </div>
           <div class="featured-excerpt">
             <img
-              class="featured-game-thumbnail"
+              class="featured-thumbnail"
               :src="featuredGame.fields.cover.fields.file.url"
               @click="openReview(featuredGame, 'game')"
             />
@@ -24,24 +26,28 @@
         <div class="featured" v-else>
           <div class="featured-excerpt">
             <img
-              class="featured-album-thumbnail"
+              class="featured-thumbnail"
               :src="featuredMusic.fields.cover.fields.file.url"
               @click="openReview(featuredMusic, 'music')"
             />
           </div>
           <div class="featured-excerpt">
-            <p>"{{ featuredMusic.fields.description }}"</p>
+            <p class="featured-description">
+              "{{ featuredMusic.fields.description }}"
+            </p>
           </div>
         </div>
         <!-- FEATURED MOVIE -->
         <loading-block v-if="loadingMovies" />
         <div class="featured" v-else>
           <div class="featured-excerpt">
-            <p>"{{ featuredMovie.fields.description }}"</p>
+            <p class="featured-description">
+              "{{ featuredMovie.fields.description }}"
+            </p>
           </div>
           <div class="featured-excerpt">
             <img
-              class="featured-movie-thumbnail"
+              class="featured-thumbnail"
               :src="featuredMovie.fields.cover.fields.file.url"
               @click="openReview(featuredMovie, 'movie')"
             />
@@ -70,7 +76,7 @@
       <router-link to="./movie/reviews">
         <h1>Film Reviews</h1>
       </router-link>
-     <div
+      <div
         v-for="row in movies"
         :key="row.sys.id"
         class="right-content-outer-border"
@@ -81,7 +87,6 @@
           </button>
         </div>
       </div>
-    
 
       <router-link to="./game/reviews">
         <h1>Games Reviews</h1>
@@ -93,12 +98,10 @@
       >
         <div class="review-link">
           <button @click="openReview(row, 'game')">
-            {{ row.fields.heading }} -
-            {{ row.fields.subHeading }}
+            {{ row.fields.heading }}
           </button>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
@@ -188,9 +191,18 @@ export default {
 };
 </script>
 
-<style>
-.main-content {
-  display: flex;
-  flex-direction: row;
+<style scoped>
+@media (max-width: 599px) {
+  .featured-description {
+    display: none;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+  }
 }
 </style>

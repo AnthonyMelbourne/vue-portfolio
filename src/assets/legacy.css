@@ -33,7 +33,6 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 100px;
-  font-size: 1.6rem;
   background: rgb(255, 255, 255);
   box-shadow: 2px 2px white, -2px -2px white;
 }
@@ -48,11 +47,11 @@ a:hover {
   color: #bfa317;
 }
 
-.header h1 {
+/* .header h1 {
   padding-top: 5px;
   font-family: "UnifrakturMaguntia", cursive;
-  font-size: 3.2rem;
-}
+  font-size: 2.8rem;
+} */
 /* ------------------------------------------------ */
 /* NESTED BORDERS vvv */
 .outer-border {
@@ -217,6 +216,16 @@ a:hover {
 /* ------------------------------------------------ */
 /* MOBILE LAYOUT vvvv */
 @media (max-width: 599px) {
+  .main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px white, -2px -2px white;
+  }
+
   .featured {
     display: flex;
     flex-direction: column;
@@ -227,107 +236,62 @@ a:hover {
     border: #bfa317 2px solid;
   }
 
-  .dropdown-menu {
-    display: none;
+  .featured-thumbnail {
+    width: 95%;
   }
 
-  .show-menu {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-
-  .mobile-menu-close {
-    margin-left: 75px;
-  }
-
-  .mobile-menu-close i {
-    color: #818181;
-  }
-
-  .mobile-menu-close i:hover {
-    cursor: pointer;
-    color: #bfa317;
-  }
-  #mobile-menu-open {
-    margin-left: 10px;
-  }
-  #mobile-menu-open:hover {
-    color: black;
-    cursor: pointer;
-  }
-  .mobile-menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    opacity: 1;
-  }
-
-  .mobile-menu a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 35px;
-    font-family: "UnifrakturCook", cursive;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    background: black;
-  }
-
-  .mobile-menu a:hover {
-    color: #f1f1f1;
-  }
-
-  .mobile-menu .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
-  #main {
-    transition: margin-left 0.5s;
-    padding: 16px;
-  }
-
-  .mobile-menu a:hover {
-    color: #bfa317;
-    cursor: pointer;
-  }
-  #mobile-menu-trigger:hover {
-    color: #bfa317;
-    cursor: pointer;
-  }
-
-  .desktop-navbar-buttons {
-    display: none;
-  }
-  .right-content {
-    display: flex;
-    flex-direction: column;
+  /* LEFT CONTENT */
+  .left-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 100%;
   }
+
+  .left-content-heading {
+    text-align: center;
+    font-family: "UnifrakturCook", cursive;
+    font-size: 2.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .left-content-subheading {
+    text-align: center;
+    font-size: 1.2rem;
+    height: 40px;
+  }
+
+  .left-content-inner-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 2px;
+    border: #bfa317 4px solid;
+  }
+
+  .featured-excerpt {
+    /* display: none; */
+    height: auto;
+    /* width: 50%; */
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  /* RIGHT CONTENT */
+
   .right-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 95%;
     text-align: center;
     margin: 10px;
   }
 
   .right-content-outer-border {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 2px;
@@ -342,10 +306,25 @@ a:hover {
     margin-bottom: 10px;
   }
 
+  .dropdown-menu {
+    display: none;
+  }
+
+  .show-menu {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  .review-link {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border: #bfa317 1px solid;
+  }
+
   .review-link button {
     font-family: "Teko", sans-serif;
-    width: 250px;
-    font-size: 2.5em;
+    width: 100%;
+    font-size: 2em;
     color: black;
     text-decoration: none;
     border: none;
@@ -356,250 +335,6 @@ a:hover {
     color: #bfa317;
     text-decoration: none;
   }
-  .review-link {
-    height: auto;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    border: #bfa317 1px solid;
-  }
-
-  .mobile-menu-tigger {
-    padding: 5px;
-  }
-  .mobile-menu-tigger i:hover {
-    color: black;
-    cursor: pointer;
-  }
-
-  .content-parent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 2px 2px white, -2px -2px white;
-  }
-
-  .left-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .left-content h1 {
-    text-align: center;
-    font-family: "UnifrakturCook", cursive;
-    font-size: 2.3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .left-content-inner-border {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding: 5px;
-    border: #bfa317 4px solid;
-  }
-
-  .featured-album-thumbnail {
-    width: 320px;
-    height: 320px;
-  }
-
-  .featured-movie-thumbnail {
-    width: 320px;
-    height: 420px;
-  }
-
-  .featured-game-thumbnail {
-    width: 320px;
-    height: 420px;
-  }
-
-  .featured-excerpt {
-    display: none;
-    height: auto;
-    width: 50%;
-    margin: 5px;
-    text-align: center;
-    font-size: 1.6rem;
-  }
-
-  /* ------------------------------------------------ */
-  /* MUSIC INDEX PAGE MOBILE*/
-  .music-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    font-size: 2rem;
-    font-family: "UnifrakturCook", cursive;
-  }
-
-  .music-nav li {
-    list-style: none;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  .music-nav a {
-    color: black;
-    text-decoration: none;
-  }
-
-  .music-nav a:hover {
-    color: #bfa317;
-  }
-
-  /* ------------------------------------------------ */
-
-  .review-header li {
-    text-align: center;
-    font-size: 1rem;
-    list-style: none;
-  }
-
-  .review-header span {
-    font-size: 3rem;
-    font-family: "UnifrakturCook", cursive;
-  }
-
-  /* REVIEW CONTENT MOBILE*/
-  .music-review-content {
-    background: rgba(255, 255, 255, 0.8);
-    margin: 1% auto;
-    padding: 5px;
-    border: 1px solid #888;
-    width: 85%;
-    border: #bfa317 6px solid;
-  }
-
-  .content-paragraph {
-    font-size: 1.5rem;
-    text-align: justify;
-    width: 100%;
-    height: 100%;
-    padding-right: 10px;
-  }
-
-  .music-review-content-inner-border {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: #bfa317 1px solid;
-    box-shadow: 2px 2px white, -2px -2px white;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-
-  .content-paragraph a {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .content-paragraph a:hover {
-    color: #bfa317;
-    cursor: pointer;
-  }
-
-  .feature-one-img {
-    width: 100%;
-    margin: 5px;
-  }
-
-  .feature-two-img {
-    width: 100%;
-    margin: 5px;
-  }
-
-  .feature-one-promo {
-    width: 100%;
-    margin: 5px;
-    float: right;
-  }
-
-  .feature-two-promo {
-    width: 100%;
-    margin: 5px;
-  }
-
-  .album-image {
-    background-size: cover;
-    border: 2px black solid;
-    text-align: center;
-    cursor: pointer;
-    width: 320px;
-    height: 335px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .film-image {
-    background-size: cover;
-    border: 2px black solid;
-    text-align: center;
-    cursor: pointer;
-    width: 320px;
-    height: 520px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .game-image {
-    background-size: cover;
-    border: 2px black solid;
-    text-align: center;
-    cursor: pointer;
-    width: 320px;
-    height: 415px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .image-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  /* MODAL MOBILE */
-
-  .modal-open {
-    padding: 8px 16px;
-    color: white;
-    outline: none;
-    background-origin: none;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    display: none;
-  }
-
-  .modal-content {
-    border: #bfa317 3px solid;
-    background: #fff;
-    margin-top: 25px;
-    width: 80%;
-    height: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 24px 24px;
-    border-radius: 4px;
-    z-index: 5;
-  }
-
-  .modal-header {
-    padding: 2px 0;
-  }
 
   .modal-heading {
     color: black;
@@ -609,39 +344,10 @@ a:hover {
   }
 
   .modal-subheading {
+    color: black;
     font-size: 1.4rem;
     text-align: left;
     font-family: "Teko", sans-serif;
-  }
-
-  .modal-header .modal-close {
-    float: right;
-    font-size: 20px;
-    background: #efefef;
-    border: 0;
-    outline: 0;
-    padding: 5px 8px;
-    border-radius: 50%;
-  }
-
-  .modal-body {
-    font-size: 1.6em;
-    overflow-y: scroll;
-    color: #7b7b7b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    height: 84%;
-    overflow-x: hidden;
-    text-align: left;
-  }
-
-  .modal-close i {
-    color: #bfa317;
-    cursor: pointer;
-  }
-
-  .modal-close i:hover {
-    color: black;
   }
 }
 /* ------------------------------------------------ */
@@ -717,7 +423,7 @@ a:hover {
     cursor: pointer;
   }
 
-  .content-parent {
+  .main-content {
     width: 100%;
     display: block;
     align-items: center;
@@ -781,12 +487,17 @@ a:hover {
     margin: 10px;
   }
 
-  .left-content h1 {
+  .left-content-heading {
     text-align: center;
     font-family: "UnifrakturCook", cursive;
     font-size: 2.7rem;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .left-content-subheading {
+    text-align: center;
+    font-size: 1.6rem;
   }
 
   .left-content-inner-border {
@@ -797,19 +508,8 @@ a:hover {
     border: #bfa317 4px solid;
   }
 
-  .featured-album-thumbnail {
-    width: 300px;
-    height: 299px;
-  }
-
-  .featured-movie-thumbnail {
-    width: 300px;
-    height: 420px;
-  }
-
-  .featured-game-thumbnail {
-    width: 300px;
-    height: 420px;
+  .featured-thumbnail {
+    width: 100%;
   }
 
   .featured-excerpt {
@@ -1002,6 +702,7 @@ a:hover {
     padding: 2px 0;
   }
   .modal-heading {
+    color: black;
     font-size: 2rem;
     text-align: left;
     font-family: "UnifrakturCook", cursive;
@@ -1022,22 +723,6 @@ a:hover {
     outline: 0;
     padding: 5px 8px;
     border-radius: 50%;
-  }
-
-  .modal-body {
-    font-size: 1.6em;
-    overflow-y: scroll;
-    color: #7b7b7b;
-    padding: 15px 0;
-    height: 80%;
-    text-align: left;
-  }
-
-  .modal-body span {
-    font-weight: bolder;
-    font-size: large;
-    color: #5e5c5c;
-    font-style: italic;
   }
 
   .modal-footer {
@@ -1112,18 +797,15 @@ a:hover {
     cursor: pointer;
   }
 
-  .content-parent {
-    width: 100%;
+  .main-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
   }
 
   .right-content-outer-border {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 2px;
@@ -1132,10 +814,8 @@ a:hover {
     width: 100%;
   }
   .right-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 50%;
     text-align: center;
     margin: 10px;
@@ -1175,13 +855,19 @@ a:hover {
     text-align: center;
     margin: 10px;
   }
-  .left-content h1 {
+  .left-content-heading {
     text-align: center;
     font-family: "UnifrakturCook", cursive;
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .left-content-subheading {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
   .left-content-inner-border {
     display: flex;
     flex-direction: column;
@@ -1190,19 +876,9 @@ a:hover {
     border: #bfa317 4px solid;
   }
 
-  .featured-album-thumbnail {
-    width: 300px;
-    height: 299px;
-  }
-
-  .featured-movie-thumbnail {
-    width: 300px;
-    height: 420px;
-  }
-
-  .featured-game-thumbnail {
-    width: 300px;
-    height: 380px;
+  .featured-thumbnail {
+    width: 100%;
+    z-index: 2;
   }
 
   .featured-excerpt {
@@ -1384,92 +1060,12 @@ a:hover {
   .modal-close i:hover {
     color: black;
   }
-
-  .modal-body {
-    height: 380px;
-    overflow-y: scroll;
-  }
-}
-
-/* ------------------------------------------------ */
-/* UNDER CONSTRUCTION PAGE */
-.under-contruction {
-  font-size: 4rem;
-  font-family: "UnifrakturCook", cursive;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.under-contruction img {
-  width: 200px;
-  padding: 10px;
-}
-
-.under-contruction h1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 730px) {
-  .under-contruction {
-    font-size: 4rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .under-contruction img {
-    width: 150px;
-    padding: 5px;
-  }
 }
 
 /* HOME PAGE FEATURED CONTENT */
-.featured-album-thumbnail {
-  background-size: cover;
-  margin: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-.featured-album-thumbnail:hover {
-  cursor: pointer;
-}
-.featured-movie-thumbnail {
-  background-size: cover;
-  margin: 5px;
-  text-align: center;
-}
-.featured-movie-thumbnail:hover {
-  cursor: pointer;
-}
-.featured-game-thumbnail {
-  
-  background-size: cover;
-  margin: 5px;
-  text-align: center;
-}
-.featured-game-thumbnail:hover {
-  cursor: pointer;
-}
-
-.left-content li {
-  text-align: center;
-  font-size: 1rem;
-  list-style: none;
-}
 
 /* <------ VUE-PORTFOLIO STYLES  ------> */
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  text-align: center;
-}
 .heading {
   font-family: "UnifrakturCook", cursive;
   font-size: 4rem;
@@ -1503,3 +1099,14 @@ img:hover {
 .close:hover i {
   color: black;
 }
+
+/* .modal-body {
+  font-size: 1.6em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #7b7b7b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+  text-align: left;
+} */

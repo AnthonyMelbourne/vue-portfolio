@@ -1,16 +1,17 @@
 <template>
-  <div>
+  <div class="modal-body">
     <div>
       <div class="modal-heading">{{ article.fields.heading }}</div>
 
       <div class="modal-subheading">{{ article.fields.subHeading }}</div>
     </div>
-    <div class="modal-body">
-      <div v-for="(block, key) in article.fields.body.content" :key="key">
+    <div>
+      <dialog-body :content="article.fields.body.content" />
+      <!-- <div v-for="(block, key) in article.fields.body.content" :key="key">
         <p v-if="block.nodeType === 'paragraph'">
           {{ block.content[0].value }}
         </p>
-      </div>
+      </div> -->
       <iframe
         v-if="article.fields.youtubeUrl.length > 0"
         width="560"
@@ -26,8 +27,11 @@
 </template>
 
 <script>
+import DialogBody from "./DialogBody.vue";
+
 export default {
-  props: ["article"],
+  components: { DialogBody },
+  props: ["article"]
 };
 </script>
 

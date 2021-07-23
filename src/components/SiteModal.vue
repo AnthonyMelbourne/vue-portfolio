@@ -51,17 +51,31 @@ dialog {
   bottom: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
-  padding: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 10px;
   background-color: #fff;
   z-index: 100;
-
   border: #bfa317 3px solid;
   margin-top: 25px;
   width: 90%;
-  max-height: 90%;
-  height: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px 24px;
+  height: 85%;
+}
+
+@media (max-width: 599px) {
+  dialog {
+    position: fixed;
+    top: 10px;
+    bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+    background-color: #fff;
+    z-index: 100;
+    border: #bfa317 1px solid;
+    margin-top: 25px;
+    width: 85%;
+    height: 85%;
+  }
 }
 </style>

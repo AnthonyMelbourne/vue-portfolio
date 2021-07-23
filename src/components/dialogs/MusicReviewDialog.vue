@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="modal-body">
     <div>
       <div class="modal-heading">{{ article.fields.heading }}</div>
 
       <div class="modal-subheading">{{ article.fields.subHeading }}</div>
     </div>
-    <div class="modal-body">
+    <div>
       <dialog-body :content="article.fields.body.content" />
 
       <iframe
@@ -31,4 +31,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
