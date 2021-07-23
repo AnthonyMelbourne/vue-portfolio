@@ -10,7 +10,7 @@
         :src="block.data.target.fields.file.url"
         :alt="block.data.target.fields.title"
         :title="block.data.target.fields.title"
-        :style="imageFloat(block.data.target.fields.file.url)"
+        :style="imageFloat(block.data.target.sys.id)"
         ref="bodyImage"
       />
     </div>
@@ -22,16 +22,27 @@ export default {
   props: ["content"],
   data() {
     return {
-      images: [],
+      imageAlign: [],
     };
   },
   methods: {
-    imageFloat(url) {
-      this.images[url] = this.images.length + 1;
-      let count = this.$refs.bodyImage ? this.$refs.bodyImage.length : 0;
+    imageFloat(id) {
+      let count = 0;
+      this.imageAlign.forEach((imageId, index) => {
+        if (id == imageId) {
+          count = index;
+        }
+      });
       return "float:" + (count % 2 == 0 ? "right" : "left");
     },
   },
+  mounted() {
+    this.content.forEach(block => {
+      if (block.nodeType === 'embedded-asset-block') {
+        this.imageAlign.push(block.data.target.sys.id);
+      }
+    });
+  }
 };
 </script>
 
