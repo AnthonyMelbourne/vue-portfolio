@@ -800,7 +800,7 @@ a:hover {
   .main-content {
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-content: flex-start;
     justify-content: space-between;
     text-align: center;
   }
