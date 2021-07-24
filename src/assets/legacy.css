@@ -1101,13 +1101,9 @@ img:hover {
   color: black;
 }
 
-/* .modal-body {
-  font-size: 1.6em;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  color: #7b7b7b;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: 100%;
-  text-align: left;
-} */
+iframe {
+  margin: auto;
+  width: 100%;
+  border: 3px solid #bfa317;
+  padding: 2px;
+}
