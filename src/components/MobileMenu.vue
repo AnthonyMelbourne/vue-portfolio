@@ -1,11 +1,5 @@
 <template>
-  <div
-    id="burger"
-    :class="{
-      active: active,
-    }"
-    @click="toggleActive"
-  >
+  <div>
     <nav>
       <ul>
         <li>
@@ -57,18 +51,6 @@
 <script>
 export default {
   name: "MobileMenu",
-  props: {
-    active: {
-      type: Boolean,
-      required: true,
-      default: false,
-    },
-  },
-  methods: {
-    // toggleActive() {
-    //   this.$emit("toggle-menu");
-    // },
-  },
 };
 </script>
 

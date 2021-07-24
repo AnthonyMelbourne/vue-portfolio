@@ -23,14 +23,6 @@
 </template>
 
 <script>
-/*
-TEST CONFLICT COMMENT
-
-
-
-foo
-*/
-// ANOTHER TEST CONFLICT
 import SiteHeader from "./components/SiteHeader.vue";
 import SiteFooter from "./components/SiteFooter.vue";
 import Navigation from "./components/Navigation.vue";

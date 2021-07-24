@@ -50,42 +50,27 @@
     </div>
 
     <nav>
-      <!-- <div id="mobile-menu">
-        <i
-          @click="mobileMenuIsVisible"
-          class="fas fa-bars fa-4x"
-          id="mobile-menu-open"
-        ></i>
-      </div> -->
-
       <button
         class="hamburger hamburger--spin"
         type="button"
         aria-label="Menu"
         aria-controls="navigation"
+        :class="{
+          'is-active': mobileMenuIsVisible
+        }"
+        @click="mobileMenuIsVisible = !mobileMenuIsVisible"
       >
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
       </button>
-      <nav
-        id="navigation mobileMenu"
-        class="mobile-menu show-menu"
-        style="width: 180px;"
-      >
-        <mobile-menu
-          id="mobile-menu"
-          @toggle-menu="menuActive = !menuActive"
-          :active="menuActive"
-        ></mobile-menu>
-      </nav>
 
-      <!-- <mobile-menu
-      :class="mobile - menu"
-      :open="mobileMenuIsVisible"
-      :content="mobileMenuContent"
-      @close="mobileMenuIsVisible = false"
-    /> -->
+      <mobile-menu
+        class="mobile-menu"
+        :style="{
+          'left': mobileMenuPosition
+        }"
+      ></mobile-menu>
     </nav>
   </nav>
 </template>
@@ -96,25 +81,24 @@ import MobileMenu from "../components/MobileMenu.vue";
 export default {
   data() {
     return {
-      mobileMenuIsVisible: false,
-      mobileMenuContent: {},
+      mobileMenuIsVisible: true,
     };
+  },
+  computed: {
+    mobileMenuPosition() {
+      return this.mobileMenuIsVisible ? '0' : '-250px';
+    }
+  },
+  watch:{
+    $route () {
+      this.mobileMenuIsVisible = false;
+    }
   },
   name: "Navigation",
   components: {
     MobileMenu,
   },
   methods: {
-    toggleMenu() {
-      this.$emit("menu-active");
-    },
-    openMobileMenu(data) {
-      this.mobileMenuContent = data;
-      this.mobileMenuIsVisible = true;
-    },
-    closeMobileMenu() {
-      this.mobileMenuIsVisible = false;
-    },
   },
 };
 </script>
@@ -137,13 +121,12 @@ nav {
     display: none;
   }
   .mobile-menu {
-    display: none;
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 186px;
+    left: -250px;
     background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
