@@ -23,6 +23,13 @@
 </template>
 
 <script>
+/*
+TEST CONFLICT COMMENT
+
+
+
+foo
+*/
 import SiteHeader from "./components/SiteHeader.vue";
 import SiteFooter from "./components/SiteFooter.vue";
 import Navigation from "./components/Navigation.vue";
@@ -53,7 +60,7 @@ export default {
       this.dialogIsVisible = false;
     },
   },
-  
+
 };
 </script>
 
