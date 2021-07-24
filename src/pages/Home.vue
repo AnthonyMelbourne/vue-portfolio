@@ -132,7 +132,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "music",
-          order: "-sys.createdAt",
+          order: "-sys.updatedAt",
           limit: 4,
         })
         .then((res) => {
@@ -148,7 +148,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "movie",
-          order: "-sys.createdAt",
+          order: "-sys.updatedAt",
           limit: 4,
         })
         .then((res) => {
@@ -164,7 +164,7 @@ export default {
       this.$contentful
         .getEntries({
           content_type: "game",
-          order: "-sys.createdAt",
+          order: "-sys.updatedAt",
           limit: 4,
         })
         .then((res) => {

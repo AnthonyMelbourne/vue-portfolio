@@ -4,6 +4,7 @@
       <p v-if="block.nodeType === 'paragraph'">
         {{ block.content[0].value }}
       </p>
+      
       <img
         class="img"
         v-if="block.nodeType === 'embedded-asset-block'"
@@ -33,7 +34,7 @@ export default {
           count = index;
         }
       });
-      return "float:" + (count % 2 == 0 ? "right" : "left");
+      return "float:" + (count % 2 == 0 ? "left" : "right");
     },
   },
   mounted() {
@@ -47,8 +48,25 @@ export default {
 </script>
 
 <style>
-.img {
+@media (max-width: 599px) {
+  .modal-body img {
+    filter: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .modal-body img {
+    filter: none;
+    width: 60%;
+  }
+}
+
+@media (min-width: 980px) {
+  .img {
   filter: none;
   max-width: 40%;
 }
+}
+
 </style>

@@ -63,8 +63,9 @@ export default {
   text-align: center;
 }
 img {
-  width: 266px;
-  height: 267px;
+  height: 99%;
+  width: 99%;
+  padding: 1%;
   cursor: pointer;
 }
 </style>

@@ -47,11 +47,6 @@ a:hover {
   color: #bfa317;
 }
 
-/* .header h1 {
-  padding-top: 5px;
-  font-family: "UnifrakturMaguntia", cursive;
-  font-size: 2.8rem;
-} */
 /* ------------------------------------------------ */
 /* NESTED BORDERS vvv */
 .outer-border {
@@ -216,6 +211,9 @@ a:hover {
 /* ------------------------------------------------ */
 /* MOBILE LAYOUT vvvv */
 @media (max-width: 599px) {
+
+
+  
   .main-content {
     width: 100%;
     display: flex;
@@ -297,6 +295,7 @@ a:hover {
     padding: 2px;
     background: rgba(255, 255, 255, 0.1);
     border: #bfa317 4px solid;
+    width: 100%;
   }
 
   .right-content h1 {
@@ -349,6 +348,8 @@ a:hover {
     text-align: left;
     font-family: "Teko", sans-serif;
   }
+
+  
 }
 /* ------------------------------------------------ */
 /* TABLET LAYOUT vvvv */
@@ -800,7 +801,7 @@ a:hover {
   .main-content {
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-items: stretch;
     justify-content: space-between;
     text-align: center;
   }
@@ -1026,7 +1027,7 @@ a:hover {
     border: #bfa317 3px solid;
     background: #fff;
     margin-top: 25px;
-    width: 90%;
+    width: 80%;
     height: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -1110,3 +1111,5 @@ img:hover {
   height: 100%;
   text-align: left;
 } */
+
+

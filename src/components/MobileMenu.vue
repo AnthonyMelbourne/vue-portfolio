@@ -6,17 +6,57 @@
     }"
     @click="toggleActive"
   >
-    <button type="button" class="burger-button" title="Menu">
-      <span class="burger-bar burger-bar--1"></span>
-      <span class="burger-bar burger-bar--2"></span>
-      <span class="burger-bar burger-bar--3"></span>
-    </button>
+    <nav>
+      <ul>
+        <li>
+          <button><router-link to="/">Home</router-link></button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/music/reviews">Album Reviews</router-link>
+          </button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/movie/reviews">Gig Reviews</router-link>
+          </button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/game/reviews">Game Reviews</router-link>
+          </button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/music/reviews">Walkthroughs</router-link>
+          </button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/movie/reviews">Movie Reviews</router-link>
+          </button>
+        </li>
+        <li>
+          <button>
+            <router-link to="/game/reviews">Top 10's</router-link>
+          </button>
+        </li>
+        <li>
+          <button><router-link to="/">Store</router-link></button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- OLD MOBILE MENU CLOSE ICON -->
+    <!-- <div class="mobile-menu-close">
+        <i id="mobile-menu-close" class="fas fa-times fa-4x"></i>
+      </div> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: "Burger",
+  name: "MobileMenu",
   props: {
     active: {
       type: Boolean,
@@ -25,112 +65,11 @@ export default {
     },
   },
   methods: {
-    toggleActive() {
-      this.$emit("toggle-menu");
-    },
+    // toggleActive() {
+    //   this.$emit("toggle-menu");
+    // },
   },
 };
 </script>
 
-<style scoped>
-$burger-color: #444;
-$primary: #2b2b68;
-
-.hidden {
-  visibility: hidden;
-}
-
-button {
-  cursor: pointer;
-}
-
-/* remove blue outline */
-button:focus {
-  outline: 0;
-}
-
-.burger-button {
-  position: relative;
-  height: 30px;
-  width: 40px;
-  display: block;
-  z-index: 99;
-  border: 0;
-  border-radius: 0;
-  background-color: transparent;
-  pointer-events: all;
-  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.burger-bar {
-  background-color: $burger-color;
-  position: absolute;
-  top: 50%;
-  right: 6px;
-  left: 6px;
-  height: 3px;
-  width: auto;
-  margin-top: -1px;
-  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
-    opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
-    background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.burger-bar--1 {
-  -webkit-transform: translateY(-6px);
-  transform: translateY(-6px);
-  top: 40%;
-}
-
-.burger-bar--2 {
-  transform-origin: 100% 50%;
-  transform: scaleX(1);
-}
-
-.burger-button:hover .burger-bar--2 {
-  transform: scaleX(1);
-}
-
-.no-touchevents .burger-bar--2:hover {
-  transform: scaleX(1);
-}
-
-.burger-bar--3 {
-  transform: translateY(6px);
-  top: 60%;
-}
-
-#burger.active .burger-button {
-  transform: rotate(-180deg);
-}
-
-#burger.active .burger-bar {
-  background-color: lighten($primary, 10);
-}
-
-#burger.active .burger-bar--1 {
-  transform: rotate(45deg);
-  top: 50%;
-}
-
-#burger.active .burger-bar--2 {
-  opacity: 0;
-}
-
-#burger.active .burger-bar--3 {
-  transform: rotate(-45deg);
-  top: 50%;
-}
-
-@media screen and (max-width: 599px) {
-  #burger {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 300px) {
-  #burger {
-    display: none;
-  }
-}
-</style>
+<style></style>

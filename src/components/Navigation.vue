@@ -16,7 +16,7 @@
               <li>
                 <router-link to="/music/reviews">Reviews</router-link>
               </li>
-              <li><a href="UNDER-CONSTRUCTION.html">Interviews</a></li>
+              <li><router-link to="/">Interviews</router-link></li>
             </ul>
           </nav>
         </li>
@@ -28,7 +28,7 @@
               <li>
                 <router-link to="/movie/reviews">Reviews</router-link>
               </li>
-              <li><a href="UNDER-CONSTRUCTION.html">Top 10's</a></li>
+              <li><router-link to="/">Top 10's</router-link></li>
             </ul>
           </nav>
         </li>
@@ -41,27 +41,44 @@
               <li>
                 <router-link to="/game/reviews">Reviews</router-link>
               </li>
-              <li><a href="UNDER-CONSTRUCTION.html">Guides</a></li>
+              <li><router-link to="/">Guides</router-link></li>
             </ul>
           </nav>
         </li>
-        <li class="button"><a href="UNDER-CONSTRUCTION.html">Store</a></li>
+        <li class="button"><router-link to="/">Store</router-link></li>
       </ul>
     </div>
 
     <nav>
-      <div id="mobile-menu">
+      <!-- <div id="mobile-menu">
         <i
           @click="mobileMenuIsVisible"
           class="fas fa-bars fa-4x"
           id="mobile-menu-open"
         ></i>
-      </div>
+      </div> -->
 
-      <mobile-menu
-        @toggle-menu="menuActive = !menuActive"
-        :active="menuActive"
-      ></mobile-menu>
+      <button
+        class="hamburger hamburger--spin"
+        type="button"
+        aria-label="Menu"
+        aria-controls="navigation"
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav
+        id="navigation mobileMenu"
+        class="mobile-menu show-menu"
+        style="width: 180px;"
+      >
+        <mobile-menu
+          id="mobile-menu"
+          @toggle-menu="menuActive = !menuActive"
+          :active="menuActive"
+        ></mobile-menu>
+      </nav>
 
       <!-- <mobile-menu
       :class="mobile - menu"
@@ -88,6 +105,9 @@ export default {
     MobileMenu,
   },
   methods: {
+    toggleMenu() {
+      this.$emit("menu-active");
+    },
     openMobileMenu(data) {
       this.mobileMenuContent = data;
       this.mobileMenuIsVisible = true;
@@ -115,6 +135,20 @@ nav {
 @media (max-width: 599px) {
   .desktop-navbar-buttons {
     display: none;
+  }
+  .mobile-menu {
+    display: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 1;
   }
 }
 </style>

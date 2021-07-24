@@ -28,6 +28,7 @@ import SiteFooter from "./components/SiteFooter.vue";
 import Navigation from "./components/Navigation.vue";
 import SiteModal from "./components/SiteModal.vue";
 import "@/assets/legacy.css";
+import "@/assets/hamburgers.min.css";
 
 export default {
   data() {

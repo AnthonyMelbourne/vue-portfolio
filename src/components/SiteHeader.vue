@@ -19,11 +19,27 @@ export default {
 </script>
 
 <style>
-@media (min-width: 300px) {
+@media (max-width: 599px) {
   .header h1 {
     padding-top: 5px;
     font-family: "UnifrakturMaguntia", cursive;
     font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .header h1 {
+    padding-top: 5px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 980px) {
+  .header h1 {
+    padding-top: 5px;
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 6rem;
   }
 }
 </style>

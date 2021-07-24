@@ -7,11 +7,7 @@
     </div>
     <div>
       <dialog-body :content="article.fields.body.content" />
-      <!-- <div v-for="(block, key) in article.fields.body.content" :key="key">
-        <p v-if="block.nodeType === 'paragraph'">
-          {{ block.content[0].value }}
-        </p>
-      </div> -->
+      <div class="modal-subheading">{{ article.fields.author }}</div>
       <iframe
         v-if="article.fields.youtubeUrl.length > 0"
         width="560"
@@ -31,7 +27,7 @@ import DialogBody from "./DialogBody.vue";
 
 export default {
   components: { DialogBody },
-  props: ["article"]
+  props: ["article"],
 };
 </script>
 
@@ -47,6 +43,10 @@ export default {
     padding-right: 2.5px;
     height: 100%;
     text-align: left;
+  }
+
+  .modal-body img {
+    width: 100%;
   }
 }
 
