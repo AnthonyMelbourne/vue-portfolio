@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mobile-parent">
     <nav>
       <ul class="mobile-menu">
         <li>

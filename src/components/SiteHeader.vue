@@ -19,11 +19,12 @@ export default {
 </script>
 
 <style>
+
 @media (max-width: 599px) {
   .header h1 {
     padding-top: 5px;
     font-family: "UnifrakturMaguntia", cursive;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 }
 
