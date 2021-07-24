@@ -265,10 +265,20 @@ a:hover {
     border: #bfa317 4px solid;
   }
 
+  .heading {
+    font-family: "UnifrakturCook", cursive;
+    font-size: 1.9rem;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+  }
+  .sub-heading {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 0.9rem;
+  }
+
   .featured-excerpt {
-    /* display: none; */
     height: auto;
-    /* width: 50%; */
     margin: 5px;
     text-align: center;
     font-size: 1.2rem;
@@ -386,6 +396,18 @@ a:hover {
 
   .fa-bars {
     display: none;
+  }
+
+  .heading {
+    font-family: "UnifrakturCook", cursive;
+    font-size: 2.9rem;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+  }
+  .sub-heading {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 1.3rem;
   }
 
   .desktop-navbar-buttons {
@@ -524,7 +546,7 @@ a:hover {
   /* ------------------------------------------------ */
   /* REVIEW CONTENT TABLET*/
 
-  .album-image {
+  /* .album-image {
     background-size: cover;
     border: 2px black solid;
     text-align: center;
@@ -552,7 +574,7 @@ a:hover {
     width: 300px;
     height: 400px;
     padding: 5px;
-  }
+  } */
 
   .image-gallery {
     display: grid;
@@ -562,7 +584,7 @@ a:hover {
 
   /* ------------------------------------------------ */
   /* MUSIC INDEX PAGE TABLET*/
-  .music-nav {
+  /* .music-nav {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -584,12 +606,12 @@ a:hover {
 
   .music-nav a:hover {
     color: #bfa317;
-  }
+  } */
 
   /* ------------------------------------------------ */
   /* MUSIC REVIEW CONTENT DESKTOP*/
 
-  .review-header li {
+  /* .review-header li {
     text-align: center;
     font-size: 1rem;
     list-style: none;
@@ -619,7 +641,7 @@ a:hover {
     width: 100%;
     height: 100%;
     padding-right: 10px;
-  }
+  } */
 
   .music-review-content-inner-border {
     display: flex;
@@ -631,7 +653,7 @@ a:hover {
     padding-left: 5px;
   }
 
-  .content-paragraph a {
+  /* .content-paragraph a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -664,7 +686,7 @@ a:hover {
     width: 450px;
     float: left;
     margin: 5px;
-  }
+  } */
 
   /* MODAL TABLET */
 
@@ -726,7 +748,7 @@ a:hover {
     border-radius: 50%;
   }
 
-  .modal-footer {
+  /* .modal-footer {
     padding: 15px 0;
   }
 
@@ -737,7 +759,7 @@ a:hover {
 
   .modal-close i:hover {
     color: black;
-  }
+  } */
 }
 /* ------------------------------------------------ */
 /* DESKTOP LAYOUT vvvv */
@@ -890,10 +912,22 @@ a:hover {
     font-size: 1.6rem;
   }
 
+  .heading {
+    font-family: "UnifrakturCook", cursive;
+    font-size: 4rem;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+  }
+  .sub-heading {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 1rem;
+  }
+
   /* ------------------------------------------------ */
   /* REVIEW CONTENT DESKTOP */
 
-  .image-gallery {
+  /* .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
@@ -936,7 +970,7 @@ a:hover {
   .review-header span {
     font-size: 4rem;
     font-family: "UnifrakturCook", cursive;
-  }
+  } */
 
   /* ------------------------------------------------ */
   /* ------------------------------------------------ */
@@ -950,13 +984,13 @@ a:hover {
     border: #bfa317 6px solid;
   }
 
-  .content-paragraph {
+  /* .content-paragraph {
     font-size: 1.5rem;
     text-align: justify;
     width: 100%;
     height: 100%;
     padding-right: 10px;
-  }
+  } */
 
   .music-review-content-inner-border {
     display: flex;
@@ -968,7 +1002,7 @@ a:hover {
     padding-left: 5px;
   }
 
-  .content-paragraph a {
+  /* .content-paragraph a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
@@ -1001,7 +1035,7 @@ a:hover {
     width: 550px;
     float: left;
     margin: 5px;
-  }
+  } */
 
   /* MODAL DESKTOP */
 
@@ -1067,17 +1101,7 @@ a:hover {
 
 /* <------ VUE-PORTFOLIO STYLES  ------> */
 
-.heading {
-  font-family: "UnifrakturCook", cursive;
-  font-size: 4rem;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-}
-.sub-heading {
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-  font-size: 1rem;
-}
+
 img {
   filter: grayscale(100%);
   padding: 2.5px;

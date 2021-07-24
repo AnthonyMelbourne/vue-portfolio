@@ -1,50 +1,47 @@
 <template>
   <div>
     <nav>
-      <ul>
+      <ul class="mobile-menu">
         <li>
-          <button><router-link to="/">Home</router-link></button>
+          <div>
+            <router-link to="/">Home</router-link>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/music/reviews">Album Reviews</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/movie/reviews">Gig Reviews</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/game/reviews">Game Reviews</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/music/reviews">Walkthroughs</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/movie/reviews">Movie Reviews</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button>
+          <div>
             <router-link to="/game/reviews">Top 10's</router-link>
-          </button>
+          </div>
         </li>
         <li>
-          <button><router-link to="/">Store</router-link></button>
+          <div><router-link to="/">Store</router-link></div>
         </li>
       </ul>
     </nav>
-
-    <!-- OLD MOBILE MENU CLOSE ICON -->
-    <!-- <div class="mobile-menu-close">
-        <i id="mobile-menu-close" class="fas fa-times fa-4x"></i>
-      </div> -->
   </div>
 </template>
 
@@ -54,4 +51,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.mobile-menu a {
+  text-decoration: none;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 1.5rem;
+  color: #818181;
+}
+
+.mobile-menu a:hover {
+  color: #bfa317;
+}
+
+nav ul {
+  list-style-type: none;
+}
+</style>

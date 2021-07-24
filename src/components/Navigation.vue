@@ -56,7 +56,7 @@
         aria-label="Menu"
         aria-controls="navigation"
         :class="{
-          'is-active': mobileMenuIsVisible
+          'is-active': mobileMenuIsVisible,
         }"
         @click="mobileMenuIsVisible = !mobileMenuIsVisible"
       >
@@ -64,14 +64,13 @@
           <span class="hamburger-inner"></span>
         </span>
       </button>
-
-      <mobile-menu
-        class="mobile-menu"
-        :style="{
-          'left': mobileMenuPosition
-        }"
-      ></mobile-menu>
     </nav>
+    <mobile-menu
+      class="mobile-menu"
+      :style="{
+        left: mobileMenuPosition,
+      }"
+    ></mobile-menu>
   </nav>
 </template>
 
@@ -86,20 +85,19 @@ export default {
   },
   computed: {
     mobileMenuPosition() {
-      return this.mobileMenuIsVisible ? '0' : '-250px';
-    }
+      return this.mobileMenuIsVisible ? "0" : "-250px";
+    },
   },
-  watch:{
-    $route () {
+  watch: {
+    $route() {
       this.mobileMenuIsVisible = false;
-    }
+    },
   },
   name: "Navigation",
   components: {
     MobileMenu,
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
 
@@ -116,22 +114,26 @@ nav {
   z-index: 3;
 }
 
+.hamburger {
+  color: #bfa317;
+}
+
 @media (max-width: 599px) {
   .desktop-navbar-buttons {
     display: none;
   }
   .mobile-menu {
     height: 100%;
-    width: 250px;
+    width: 45%;
     position: fixed;
-    z-index: 1;
-    top: 186px;
+    z-index: 2;
+    top: 188px;
     left: -250px;
     background-color: black;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    opacity: 1;
+    transition: 0.8s;
+    padding-top: 5%;
+    opacity: 0.8;
   }
 }
 </style>
