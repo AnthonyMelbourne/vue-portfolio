@@ -101,7 +101,7 @@ export default {
     };
   },
   name: "Navigation",
-  compnents: {
+  components: {
     MobileMenu,
   },
   methods: {
