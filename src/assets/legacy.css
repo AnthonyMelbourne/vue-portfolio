@@ -487,6 +487,7 @@ a:hover {
     text-decoration: none;
     border: none;
     background: none;
+    cursor: pointer;
   }
   .review-link button:hover {
     color: #bfa317;
@@ -1100,7 +1101,6 @@ a:hover {
 /* HOME PAGE FEATURED CONTENT */
 
 /* <------ VUE-PORTFOLIO STYLES  ------> */
-
 
 img {
   filter: grayscale(100%);

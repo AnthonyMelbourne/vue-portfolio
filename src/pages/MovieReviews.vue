@@ -28,16 +28,16 @@ export default {
   },
   methods: {
     openReview(movieObject) {
-      this.$emit('openModal', {
-        type: 'movie',
-        article: movieObject
+      this.$emit("openModal", {
+        type: "movie",
+        article: movieObject,
       });
     },
     load() {
       this.$contentful
         .getEntries({
           content_type: "movie",
-          order: '-sys.createdAt'
+          order: "-sys.createdAt",
         })
         .then((res) => {
           this.movies = res.items;

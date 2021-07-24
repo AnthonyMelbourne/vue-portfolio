@@ -4,7 +4,7 @@
       <p v-if="block.nodeType === 'paragraph'">
         {{ block.content[0].value }}
       </p>
-      
+
       <img
         class="img"
         v-if="block.nodeType === 'embedded-asset-block'"
@@ -38,12 +38,12 @@ export default {
     },
   },
   mounted() {
-    this.content.forEach(block => {
-      if (block.nodeType === 'embedded-asset-block') {
+    this.content.forEach((block) => {
+      if (block.nodeType === "embedded-asset-block") {
         this.imageAlign.push(block.data.target.sys.id);
       }
     });
-  }
+  },
 };
 </script>
 
@@ -64,9 +64,8 @@ export default {
 
 @media (min-width: 980px) {
   .img {
-  filter: none;
-  max-width: 40%;
+    filter: none;
+    max-width: 40%;
+  }
 }
-}
-
 </style>
