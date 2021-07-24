@@ -211,9 +211,6 @@ a:hover {
 /* ------------------------------------------------ */
 /* MOBILE LAYOUT vvvv */
 @media (max-width: 599px) {
-
-
-  
   .main-content {
     width: 100%;
     display: flex;
@@ -349,7 +346,10 @@ a:hover {
     font-family: "Teko", sans-serif;
   }
 
-  
+  .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 /* ------------------------------------------------ */
 /* TABLET LAYOUT vvvv */
@@ -556,7 +556,7 @@ a:hover {
 
   .image-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
 
@@ -1111,5 +1111,3 @@ img:hover {
   height: 100%;
   text-align: left;
 } */
-
-

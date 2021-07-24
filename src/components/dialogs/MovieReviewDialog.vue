@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style>
+iframe {
+  position: relative;
+}
 @media (max-width: 599px) {
   .modal-body {
     font-size: 1.6em;

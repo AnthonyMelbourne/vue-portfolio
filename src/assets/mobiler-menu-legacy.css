@@ -147,10 +147,7 @@
   margin-bottom: 5px;
 }
 
-.image-gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+
 
 /* MODAL MOBILE */
 
